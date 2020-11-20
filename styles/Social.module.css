@@ -1,0 +1,9 @@
+.container {
+  float: left;
+}
+
+.container svg{
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+}
