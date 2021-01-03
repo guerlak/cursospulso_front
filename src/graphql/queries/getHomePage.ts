@@ -1,12 +1,19 @@
 import { gql } from 'graphql-request'
 
 const GET_HOMEPAGE = gql`
-    {
-        homePage{
-          SectionOne{
-            Texto
-          }
-        }
+  fragment sectionOne on HomePage{
+    SectionOne{
+      Texto
+      Imagem{
+        url
       }
+    }  
+  }
+
+  query GET_HOMEPAGE{
+    homePage{
+      ...sectionOne
+      }
+  }
 `
 export default GET_HOMEPAGE;

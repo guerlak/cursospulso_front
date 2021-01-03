@@ -10,20 +10,19 @@ export const Container = styled.div`
     a{
         color: #fff;
     }
-
 `
 export const Logo = styled.div` 
-    background-color: ${props => props.theme.colors.primary};
     display: flex;
     flex-direction: column;
-   
-
-
+    justify-content: space-between;
+    height: 200px;
 `
+
 export const Links = styled.div` 
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 49px;
     a{
         text-decoration: none;
     }
@@ -38,6 +37,5 @@ export const Social = styled.div`
 
     #duvidas{
         margin-right: 10em;
-
     }
 `
