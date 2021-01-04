@@ -2,6 +2,7 @@ import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Footer from '../components/Footer/Footer'
 import Header from "../components/Header/Header"
+import SectionConteudoProg from '../components/SectionConteudoProg/SectionConteudoProg'
 import SectionOneComponent from '../components/SectionOne/SectionOne'
 import SectionQuemSomos from '../components/SectionQuemSomos'
 
@@ -22,6 +23,7 @@ const Index = ({ SectionOne }: HomePageProps) => {
         <main>
           <SectionOneComponent sectionOne={SectionOne} />
           <SectionQuemSomos />
+          <SectionConteudoProg />
         </main>
         <Footer />
       </div>

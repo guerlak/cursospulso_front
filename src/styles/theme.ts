@@ -11,9 +11,9 @@ const theme = {
     font: {
         family: "Roboto, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, 'Open Sans', 'sans-serif'",
         size: {
-            small: "1.2rem",
-            medium: "1.4rem",
-            large: "1.6rem"
+            small: "0.8rem",
+            medium: "1.2rem",
+            large: "1.4rem"
         }
     }
 }
