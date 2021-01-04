@@ -9,6 +9,11 @@ export default createGlobalStyle`
 
     body {
         background: ${props => props.theme.colors.background};
-        color: #000
+        color: #000;
+        font-family: ${props => props.theme.font.family};
+    }
+    main{
+        padding-left: 10%;
+        padding-right: 10%;
     }
  `

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Footer from '../components/Footer/Footer'
 import Header from "../components/Header/Header"
 import SectionOneComponent from '../components/SectionOne/SectionOne'
+import SectionQuemSomos from '../components/SectionQuemSomos'
 
 
 import client from '../graphql/client'
@@ -14,12 +15,14 @@ const Index = ({ SectionOne }: HomePageProps) => {
   return (
     <>
       <Head>
-        <title>Cursos Pulso</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Home - Cursos Pulso</title>
       </Head>
       <div>
         <Header />
-        <SectionOneComponent sectionOne={SectionOne} />
+        <main>
+          <SectionOneComponent sectionOne={SectionOne} />
+          <SectionQuemSomos />
+        </main>
         <Footer />
       </div>
     </>
