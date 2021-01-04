@@ -24,9 +24,9 @@ export const Rectangle = styled.div`
 `
 
 export const RectangleBox = styled.div`
-> div{
-    max-width: 45%;
-}
+    > div{
+        max-width: 45%;
+    }
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -35,5 +35,3 @@ export const RectangleBox = styled.div`
     background: #F7F7F7;
     margin: 10px
 `
-
-
