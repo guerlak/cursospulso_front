@@ -8,10 +8,20 @@ const GET_HOMEPAGE = gql`
         url
       }
     }  
+  }  
+  
+  fragment sectionHero on HomePage{
+    SectionHero{
+      Image{
+        url
+      }
+      text
+    }
   }
 
   query GET_HOMEPAGE{
     homePage{
+      ...sectionHero
       ...sectionOne
       }
   }

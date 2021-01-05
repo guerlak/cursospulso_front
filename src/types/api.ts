@@ -3,6 +3,13 @@ export type ImageProps = {
     alternativeText: string;
     url: string;
 }
+export type SectionHeroProps = {
+    Image: {
+        url: string;
+    }
+    text: string;
+}
+
 
 export type SectionOneProps = {
     Texto: string;
@@ -13,5 +20,6 @@ export type SectionOneProps = {
 }
 
 export type HomePageProps = {
+    SectionHero: SectionHeroProps[];
     SectionOne: SectionOneProps;
 }
