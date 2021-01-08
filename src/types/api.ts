@@ -8,6 +8,7 @@ export type SectionHeroProps = {
         url: string;
     }
     text: string;
+    descricao: string
 }
 
 

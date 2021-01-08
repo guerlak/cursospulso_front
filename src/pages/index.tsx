@@ -15,7 +15,6 @@ import { HomePageProps } from '../types/api'
 
 const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
 
-  console.log(SectionHero)
 
   return (
     <>
@@ -45,7 +44,7 @@ export const getStaticProps: GetStaticProps = async () => {
   try {
     const { homePage } = await client.request(GET_HOMEPAGE);
     data = homePage;
-    console.log(homePage)
+
 
   } catch (e) {
     console.log("error on request")

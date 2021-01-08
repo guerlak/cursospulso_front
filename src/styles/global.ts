@@ -1,6 +1,31 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
+
+    @font-face {
+        font-family: 'HeroNew';
+        font-style: normal;
+        font-weight: 300;
+        src: local()('HeroNew Light'), local('HeroNew-Light') 
+        url('/fonts/HeroNew-Light.otf');
+    }   
+
+    @font-face {
+        font-family: 'HeroNew';
+        font-style: normal;
+        font-weight: 300;
+        src: local()('HeroNew Regular'), local('HeroNew-Regular') 
+        url('/fonts/HeroNew-Regular.otf');
+    }   
+
+    @font-face {
+        font-family: 'HeroNew';
+        font-style: normal;
+        font-weight: 300;
+        src: local()('HeroNew Bold'), local('HeroNew-Bold') 
+        url('/fonts/HeroNew-Bold.otf');
+    }
+
     *{
         margin:0;
         padding:0;
@@ -11,7 +36,6 @@ export default createGlobalStyle`
         background: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.primary};;
         font-family: ${props => props.theme.font.family};
-       
     }
 
     h1 {

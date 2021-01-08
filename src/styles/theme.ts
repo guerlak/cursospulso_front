@@ -9,7 +9,7 @@ const theme = {
         secondary: '#06FFAC'
     },
     font: {
-        family: "Roboto, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, 'Open Sans', 'sans-serif'",
+        family: "HeroNew-Light, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, 'Open Sans', 'sans-serif'",
         size: {
             small: "0.8rem",
             medium: "1.2rem",

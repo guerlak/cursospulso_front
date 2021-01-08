@@ -16,6 +16,7 @@ const GET_HOMEPAGE = gql`
         url
       }
       text
+      descricao
     }
   }
 
