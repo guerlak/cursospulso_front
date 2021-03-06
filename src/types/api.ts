@@ -3,6 +3,7 @@ export type ImageProps = {
     alternativeText: string;
     url: string;
 }
+
 export type SectionHeroProps = {
     Image: {
         url: string;

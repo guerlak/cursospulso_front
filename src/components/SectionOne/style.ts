@@ -6,21 +6,24 @@ export const Container = styled.div`
     align-items: center;
     min-height: 300px;
     > div{
+        display:  flex;
         margin: 40px;
+        flex-direction: column;
+        align-items: center;
     }
 `
 export const Texto = styled.div`
     ${({ theme }) => css`
-        width: 20em;
         color: ${theme.colors.primary};
-        width: 200px;
+        font-size: ${theme.font.size.medium};
+        line-height: 1.2;
+        width: 24rem;
         margin-bottom: 50px;
-        font-weight: bold;
+        text-align: center;
    `}
   
 `
 export const Image = styled.img`
    width: 20em;
-   
 `
 

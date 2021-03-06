@@ -13,7 +13,7 @@ export default function SectionConteudoProg() {
                 <S.Rectangle>Primeiros Socorros</S.Rectangle>
                 <S.Rectangle>Ética</S.Rectangle>
                 <S.Rectangle>Alimentação</S.Rectangle>
-                <S.Rectangle>Downças Degenerativas</S.Rectangle>
+                <S.Rectangle>Doenças Degenerativas</S.Rectangle>
                 <S.Rectangle>Fisioterapia</S.Rectangle>
                 <S.Rectangle>Cuidados Palativos</S.Rectangle>
                 <S.Rectangle>Gestão de conflitos</S.Rectangle>
@@ -23,7 +23,7 @@ export default function SectionConteudoProg() {
             <Button size="lineTwo">Conteudo Detalhado Saiba Mais</Button>
 
             <h2>Investimento</h2>
-            <h1>R$ ---- </h1>
+            <h1>R$ --,-- </h1>
 
             <div>
                 <S.RectangleBox>

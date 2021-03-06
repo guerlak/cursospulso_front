@@ -1,7 +1,5 @@
-
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import * as S from "./style"
 import { SectionHeroProps } from "../../types/api"
 
@@ -24,7 +22,7 @@ export default function SectionHero({ sectionHero }: Props) {
                 <div>
                     <img src={`${process.env.NEXT_PUBLIC_IMAGE_HOST}${sectionHero[1].Image.url}`} />
                     <h2>{sectionHero[1].text}</h2>
-                    <h3>{sectionHero[1].Descricao}</h3>
+                    <h3>{sectionHero[1].descricao}</h3>
                 </div>
             </Carousel>
         </S.Wrapper>

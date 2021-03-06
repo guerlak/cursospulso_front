@@ -6,6 +6,7 @@ export default createGlobalStyle`
         font-family: 'HeroNew';
         font-style: normal;
         font-weight: 300;
+        font-display: swap;
         src: local()('HeroNew Light'), local('HeroNew-Light') 
         url('/fonts/HeroNew-Light.otf');
     }   
@@ -13,7 +14,8 @@ export default createGlobalStyle`
     @font-face {
         font-family: 'HeroNew';
         font-style: normal;
-        font-weight: 300;
+        font-weight: 400;
+        font-display: swap;
         src: local()('HeroNew Regular'), local('HeroNew-Regular') 
         url('/fonts/HeroNew-Regular.otf');
     }   
@@ -21,7 +23,8 @@ export default createGlobalStyle`
     @font-face {
         font-family: 'HeroNew';
         font-style: normal;
-        font-weight: 300;
+        font-weight: 600;
+        font-display: swap;
         src: local()('HeroNew Bold'), local('HeroNew-Bold') 
         url('/fonts/HeroNew-Bold.otf');
     }

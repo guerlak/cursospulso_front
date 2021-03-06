@@ -8,13 +8,11 @@ import SectionHeroComponent from '../components/SectionHero/SectionHero'
 import SectionOneComponent from '../components/SectionOne/SectionOne'
 import SectionQuemSomos from '../components/SectionQuemSomos'
 
-
 import client from '../graphql/client'
 import GET_HOMEPAGE from '../graphql/queries/getHomePage'
 import { HomePageProps } from '../types/api'
 
 const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
-
 
   return (
     <>
@@ -23,8 +21,8 @@ const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
       </Head>
       <div>
         <Header />
+        {!!SectionHero && <SectionHeroComponent sectionHero={SectionHero} />}
         <main>
-          {!!SectionHero && <SectionHeroComponent sectionHero={SectionHero} />}
           {!!SectionOne && <SectionOneComponent sectionOne={SectionOne} />}
           <SectionQuemSomos />
           <SectionConteudoProg />
@@ -44,7 +42,6 @@ export const getStaticProps: GetStaticProps = async () => {
   try {
     const { homePage } = await client.request(GET_HOMEPAGE);
     data = homePage;
-
 
   } catch (e) {
     console.log("error on request")

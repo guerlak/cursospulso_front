@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
        max-width: 14rem;
     `}
 `
-export const Icon = styled.div` 
+export const Image = styled.div` 
    ${({ theme }) => css`
         width: 8rem;
         min-height: 8rem;

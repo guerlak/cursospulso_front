@@ -1,7 +1,6 @@
 import { useCallback } from "react"
 import { SectionOneProps } from "../../types/api"
 import * as S from "./style"
-
 import Button from "../Button/index"
 
 type Props = {
@@ -17,8 +16,9 @@ export default function SectionOne({ sectionOne }: Props) {
     return (
         <S.Container>
             <div>
+
                 <S.Texto>{sectionOne.Texto}</S.Texto>
-                <Button size="large">Matricule-se já</Button>
+                <Button size="medium">Matricule-se já</Button>
             </div>
             <S.Image src={`${process.env.NEXT_PUBLIC_IMAGE_HOST}${sectionOne.Imagem.url}`} />
         </S.Container>

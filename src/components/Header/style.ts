@@ -18,12 +18,13 @@ export const Container = styled.div`
 
     ul{
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
         align-items: center;
         list-style: none;
-        width: 25em;
+        width: 600px;
         li{
             margin: 20px;
+            width: 100px;
         }
     }
 `

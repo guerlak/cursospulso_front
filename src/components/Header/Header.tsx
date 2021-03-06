@@ -11,7 +11,7 @@ export default function Header() {
                 <li>Quem somos</li>
                 <li>Cursos</li>
                 <li>Contato</li>
-                <li>Cadastre seu CV</li>
+                <li>Cadastrar CV</li>
             </ul>
             <Social size={25} color={'#fff'} />
         </S.Container>

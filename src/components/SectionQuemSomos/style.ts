@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Container = styled.div`
     
     display: flex;
-    justify-content:center;
     flex-direction: column;
     align-items: center;
     min-height: 300px;
@@ -17,7 +16,7 @@ export const Container = styled.div`
 export const IconsWrapper = styled.div`
     > div{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     
 `
