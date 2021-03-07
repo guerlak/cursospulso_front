@@ -1,4 +1,4 @@
-import styled, { css, DefaultTheme } from "styled-components"
+import styled, { css } from "styled-components"
 
 
 export const Wrapper = styled.div` 
@@ -19,16 +19,18 @@ export const Image = styled.div`
         padding: 0.8rem;
     `}
 `
-export const Title = styled.div` 
+export const Name = styled.div` 
    ${({ theme }) => css`
-       
-
+       background-color: ${theme.colors.primary};
+       border-radius: 5px;
+       font-size: ${theme.font.size.small};
+       color: #fff;
+       padding: 0.5em 2em;
     `}
 `
 
-export const Description = styled.div` 
+export const Text = styled.div` 
    ${({ theme }) => css`
-        
-
+    
     `}
 `

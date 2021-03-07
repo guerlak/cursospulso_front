@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
+import { useRef } from 'react'
 import Footer from '../components/Footer/Footer'
 import Header from "../components/Header/Header"
 import SectionConteudoProg from '../components/SectionConteudoProg/SectionConteudoProg'
@@ -14,22 +15,25 @@ import { HomePageProps } from '../types/api'
 
 const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
 
+  const quemSomos = useRef(null);
+  const quemSomosHandler = () => quemSomos.current.scrollIntoView();
+
   return (
     <>
       <Head>
-        <title>Home-Cursos Pulso</title>
+        <title>Home | Cursos Pulso</title>
       </Head>
       <div>
-        <Header />
+        <Header goTo={quemSomosHandler} />
         {!!SectionHero && <SectionHeroComponent sectionHero={SectionHero} />}
         <main>
           {!!SectionOne && <SectionOneComponent sectionOne={SectionOne} />}
-          <SectionQuemSomos />
+          <SectionQuemSomos tagRef={quemSomos} />
           <SectionConteudoProg />
           <SectionForm />
         </main>
         <Footer />
-      </div>
+      </div >
     </>
   )
 }

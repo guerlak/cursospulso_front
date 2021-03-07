@@ -2,18 +2,19 @@
 import * as S from "./style"
 
 type Props = {
-    icon: string;
-    title?: string;
+    image: string;
+    name: string;
     description: string;
 }
 
+export default function InfoIcon({ image, description, name }: Props) {
 
-export default function InfoIcon({ image, description, title }: Props) {
+
     return (
         <S.Wrapper>
-            <S.Image><img src={icon} /></S.Image>
-            <S.Title>{title}</S.Title>
-            <S.Description>{description}</S.Description>
+            <S.Image><img src={image} /></S.Image>
+            <S.Name>{name}</S.Name>
+            <S.Text>{description}</S.Text>
         </S.Wrapper>
     )
 }
