@@ -10,6 +10,9 @@ export const Container = styled.div`
     a{
         color: #fff;
     }
+    div{
+        max-width: 350px;
+    }
 `
 export const Logo = styled.div` 
     display: flex;
@@ -35,7 +38,4 @@ export const Social = styled.div`
         margin: 1em;
     }
 
-    #duvidas{
-        margin-right: 10em;
-    }
 `

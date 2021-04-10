@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { useRef } from 'react'
-import Footer from '../components/Footer/Footer'
+import Footer from '../components/Footer'
 import Header from "../components/Header/Header"
 import SectionConteudoProg from '../components/SectionConteudoProg/SectionConteudoProg'
 import SectionForm from '../components/SectionForm/Form'

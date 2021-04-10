@@ -9,8 +9,9 @@ export const Wrapper = styled.div`
 `
 
 export const Text = styled.div`
-    font-size: 1.7rem;
+    font-size: ${props => props.theme.font.size.large};
     width: 250px;
+    color: #FF6C08;
 `
 
 export const Form = styled.div`

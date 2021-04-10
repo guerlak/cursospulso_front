@@ -24,7 +24,7 @@ export const Container = styled.div`
         width: 600px;
         li{
             margin: 20px;
-            width: 100px;
+            
         }
     }
 `

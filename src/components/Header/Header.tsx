@@ -14,8 +14,8 @@ export default function Header({ goTo }) {
                 onClick={() => router.push('/')}><img src="/images/CursosPulso_Logo_Colorida.png" />
             </span>
             <ul>
-                <li><span style={{ cursor: "pointer" }}
-                    onClick={goTo}>Quem somos</span>
+                <li>
+                    <span style={{ cursor: "pointer" }} onClick={goTo}>Quem somos</span>
                 </li>
                 <li>Cursos</li>
                 <li>Contato</li>

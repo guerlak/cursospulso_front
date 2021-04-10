@@ -18,7 +18,7 @@ export default function SectionForm() {
         <S.Wrapper>
             {isSubmitted ? <h1>Obrigado :)</h1> :
                 <>
-                    <S.Text>Ficou interessado? Entre em contato</S.Text>
+                    <S.Text>O que você está esperando para dar o seu primeiro passo para uma carreira de sucesso?</S.Text>
                     <S.Form>
                         <form onSubmit={submitForm}>
                             <input type="text" placeholder='Nome' onChange={e => setNome(e.target.value)} /><br></br>

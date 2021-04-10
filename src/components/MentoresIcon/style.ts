@@ -6,24 +6,26 @@ export const Wrapper = styled.div`
        display: flex;
        flex-direction: column;
        align-items: center;
-       max-width: 14rem;
+       max-width: 16rem;
     `}
+
+    img{
+        height: 10rem;
+    }
+
+    h2{
+        font-size: 12px;
+        color: #656668;
+        margin: 5px;
+    }
 `
-export const Image = styled.div` 
-   ${({ theme }) => css`
-        width: 8rem;
-        min-height: 8rem;
-        color: ${theme.colors.primary};
-        border: 0;
-        border-radius: 5px;
-        padding: 0.8rem;
-    `}
-`
+
 export const Name = styled.div` 
    ${({ theme }) => css`
        background-color: ${theme.colors.primary};
-       border-radius: 5px;
+       border-radius: 1rem;
        font-size: ${theme.font.size.small};
+       width: 12rem;
        color: #fff;
        padding: 0.5em 2em;
     `}
