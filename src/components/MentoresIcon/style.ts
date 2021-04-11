@@ -6,7 +6,9 @@ export const Wrapper = styled.div`
        display: flex;
        flex-direction: column;
        align-items: center;
-       max-width: 16rem;
+       min-width: 14rem;
+       max-width: 17rem;
+       
     `}
 
     img{
@@ -31,8 +33,10 @@ export const Name = styled.div`
     `}
 `
 
-export const Text = styled.div` 
+export const Text = styled.p` 
    ${({ theme }) => css`
-    
+        color: ${theme.colors.text};
+        font-size: ${theme.font.size.small};
+        padding: 0.3rem;
     `}
 `

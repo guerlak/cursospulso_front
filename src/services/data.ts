@@ -2,10 +2,24 @@
 
 export const descriptions = {
     mentores: {
-        mariana: "Administradora Pós-Graduada: Gestão Empresarial 21 anos de experiência em administração e relacionamento. Professora",
-        pedro: "Advogado 18 anos de experiência em Home Care Pós-Graduado: Responsabilidade CivilPós-Graduado: Mediação de Conflitos Professor",
-        ju: "Psicóloga Facilitadora de diálogo 18 anos de experiência em Home Care Pós-Graduada: Gestão de Pessoas Mestrado: Mediação de Conflitos Professora",
-        erica: "Description Erica"
+        mariana: [
+            "Pós-Graduada: Gestão Empresarial",
+            "21 anos de experiência em ADM e relacionamento.",
+            "Professora",
+        ],
+        pedro: [
+            "18 anos de experiência em Home Care",
+            "Pós-Graduado: Responsabilidade Civil e Mediação de Conflitos",
+            "Professor"
+        ],
+        ju: [
+            "Facilitadora de diálogo",
+            "18 anos de experiência em Home Care",
+            "Pós-Graduada: Gestão de Pessoas",
+            "Mestrado: Mediação de Conflitos",
+            "Professora"
+        ],
+        erica: ["Description Erica"]
     },
     missao: "Formar profissionais qualificados e capazes de conquistar um lugar no mercado de trabalho.",
     valor: "Ética, compromisso, qualidade, transparência, respeito, acolhimento e colaboração.",
