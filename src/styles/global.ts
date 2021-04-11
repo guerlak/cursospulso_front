@@ -34,6 +34,7 @@ export default createGlobalStyle`
         padding:0;
         box-sizing: border-box
     }
+    
     html{
         scroll-behavior: smooth;
     }
@@ -42,6 +43,7 @@ export default createGlobalStyle`
         background: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.primary};;
         font-family: ${props => props.theme.font.family};
+        font-size: ${props => props.theme.font.size.medium};
     }
 
     h1 {
@@ -52,5 +54,10 @@ export default createGlobalStyle`
     main{
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    p{
+        color: ${props => props.theme.colors.text};
+        font-size: ${props => props.theme.font.size.medium};
     }
  `

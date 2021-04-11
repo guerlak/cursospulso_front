@@ -19,7 +19,7 @@ export default function SectionConteudoProg() {
                 <S.Rectangle>Noções de Cuidados Palativos</S.Rectangle>
                 <S.Rectangle>Primeiros Socorros</S.Rectangle>
             </div>
-            <Button size="lineTwo"><p>Conteudo Detalhado</p> <p><strong>Saiba Mais</strong></p></Button>
+            <Button>Conteúdo Detalhado<br></br><strong>Saiba Mais</strong></Button >
 
 
             <S.Investimento>
@@ -46,6 +46,6 @@ export default function SectionConteudoProg() {
                 </S.RectangleBox>
             </div>
 
-        </S.Wrapper>
+        </S.Wrapper >
     )
 }

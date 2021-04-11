@@ -44,28 +44,33 @@ export const Diferenciais = styled.div`
 export const CursosOferecidos = styled.div`
     ${({ theme }) => css`
 
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
 
         img{
-            width: 300px;
+            width: 100%;
         }
         
         > div{
+            text-align: left;
             width: 100%;
-            max-width: 400px;
+            max-width: 500px;
             font-size: ${theme.font.size.medium};
             box-shadow: 0px 4px 8px rgb(171 171 171 / 50%);
+            padding: 3rem;
+            
+            h2{
+                color: ${props => props.theme.colors.text};
+            }
+
+            p{
+                font-size: ${theme.font.size.medium};
+            }
 
             button{
-                background-color: ${theme.colors.primary};
-                font-size: ${theme.font.size.small};
-                margin-top: 1rem;
-                color:  #fff;
-                padding: 1rem;
-                border-radius: 3px;
-                border: 0;
-            }
+                margin-top: 2rem;
+            } 
         }
 
     `}

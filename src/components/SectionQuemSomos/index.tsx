@@ -2,6 +2,7 @@
 import { useRef } from "react";
 import InfoIcon from "../InfoIcon"
 import MentoresIcon from "../MentoresIcon"
+import Button from "../Button/index"
 import * as S from "./style"
 
 import { descriptions } from '../../services/data'
@@ -42,12 +43,14 @@ export default function SectionQuemSomos({ tagRef }) {
             <S.CursosOferecidos>
                 <img src="images/curso1.png" />
                 <div>
+                    <h2>Cuidados de Idosos</h2>
+                    <br></br>
                     <p>
                         Curso especializado na formação e aperfeiçoamento de Cuidadores de Idosos,
                         um dos segmentos profissionais que mais crescem no Brasil.
-                        Aulas teóricas e práticas com os melhores profissionais do mercado de trabalho.
+                        Aulas teóricas e práticas com enfermeiros especializados e os melhores profissionais do mercado de trabalho.
                     </p>
-                    <button>Matricule-se já e sai na frente</button>
+                    <Button>Matricule-se já e sai na frente</Button>
                 </div>
             </S.CursosOferecidos>
 

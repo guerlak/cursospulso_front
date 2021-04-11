@@ -17,15 +17,10 @@ export const Wrapper = styled.div`
         font-size: ${props => props.theme.font.size.medium};
         
     }
-
-    button{
-        border-radius: 10px;
-        width: 30rem;
-    }
 `
 
 export const Rectangle = styled.div`
-    background: #FFFFFF;
+    background: #fff;
     box-shadow: 0px 4px 8px rgba(171, 171, 171, 0.5);
     color: ${props => props.theme.colors.primary};
     padding: 10px;
@@ -50,9 +45,17 @@ export const RectangleBox = styled.div`
     background: #F7F7F7;
     margin: 10px
 `
+
 export const Investimento = styled.div`
-   display: flex;
-   flex-direction: column;
-   align-items:  center;
-   justify-content: center;
+
+${({ theme }) => css`
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+        justify-content: center;
+        p{
+            color: ${theme.colors.primary};
+        }
+        
+    `}
 `
