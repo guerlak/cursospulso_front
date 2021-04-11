@@ -10,7 +10,18 @@ export const Wrapper = styled.div`
     >div{
         margin: 2rem;
     }
-    color: ${props => props.theme.colors.primary}
+    color: ${props => props.theme.colors.primary};
+
+    .subTitle{
+        margin: -25px 0 20px 0;
+        font-size: ${props => props.theme.font.size.medium};
+        
+    }
+
+    button{
+        border-radius: 10px;
+        width: 30rem;
+    }
 `
 
 export const Rectangle = styled.div`
@@ -24,14 +35,24 @@ export const Rectangle = styled.div`
 `
 
 export const RectangleBox = styled.div`
-    > div{
-        max-width: 45%;
+    .title{
+        font-weight: bold;
+        font-size: 1.3rem;
     }
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    height: 100px;
+    color: ${props => props.theme.colors.text};
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
     align-items: center;
-    padding: 1.5rem 2.5rem;
+    padding: 1rem 2.5rem;
     background: #F7F7F7;
     margin: 10px
+`
+export const Investimento = styled.div`
+   display: flex;
+   flex-direction: column;
+   align-items:  center;
+   justify-content: center;
 `

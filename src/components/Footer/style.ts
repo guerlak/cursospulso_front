@@ -6,13 +6,21 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    min-height: 350px;
+    height: 300px;
+    line-height: 1.5rem;
     a{
         color: #fff;
     }
     div{
         max-width: 350px;
+        
     }
+
+    div + div{
+        border-left: 1px solid rgba(255,255,255, 0.4);
+        padding-left: 3rem;
+    }
+
 `
 export const Logo = styled.div` 
     display: flex;
@@ -29,13 +37,12 @@ export const Links = styled.div`
     a{
         text-decoration: none;
     }
-    
 `
 export const Social = styled.div` 
     display: flex;
     align-items: center;
     a{
-        margin: 1em;
+        margin: 0.5em;
     }
 
 `

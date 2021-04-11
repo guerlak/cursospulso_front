@@ -30,9 +30,8 @@ export default function Footer() {
 
 
             <div>
-
                 <p>+55 (21) 98904-0189</p>
-                <p>contato@cursospulso.com.br</p>
+                <p><i>contato@cursospulso.com.br</i></p>
                 <S.Social>
                     <a href="https://www.instagram.com/cursospulso/" target="_blank">
                         <FaWhatsapp size={30} />
@@ -53,7 +52,7 @@ export default function Footer() {
                     Av. das Américas, 4200. Bloco 09, sala 107 A
                     Centro Empresarial Barrashopping
                 </p>
-                <br />
+
                 <p>
                     Barra da Tijuca | Rio de Janeiro - RJ.
                 </p>

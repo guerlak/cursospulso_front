@@ -9,8 +9,6 @@ type IconProps = {
 }
 
 export default function InfoIcon({ image, description, name, role }: IconProps) {
-
-
     return (
         <S.Wrapper>
             <img src={image} />

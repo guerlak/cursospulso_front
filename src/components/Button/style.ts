@@ -6,8 +6,9 @@ type WrapperProps = Pick<ButtonProps, 'size'>
 const wrapperSelector = {
     lineTwo: (theme: DefaultTheme) => css`
         height: 4rem;
-        max-width: 10rem;
-        font-size: ${theme.font.size.small};
+        max-width: 25rem;
+        font-size: ${theme.font.size.medium};
+        color: ${theme.colors.primary};
     `,
     small: (theme: DefaultTheme) => css`
         height: 3rem;

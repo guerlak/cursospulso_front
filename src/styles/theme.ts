@@ -6,7 +6,8 @@ const theme = {
         white: "#fafafa",
         grey: '#dedede',
         primary: '#0025FF',
-        secondary: '#06FFAC'
+        secondary: '#06FFAC',
+        text: '#656668',
     },
     font: {
         family: "HeroNew, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, 'Open Sans', 'sans-serif'",

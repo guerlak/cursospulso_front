@@ -9,9 +9,11 @@ export const Wrapper = styled.div`
 `
 
 export const Text = styled.div`
-    font-size: ${props => props.theme.font.size.large};
-    width: 250px;
+    font-size: 1.8rem;
+    width: 290px;
     color: #FF6C08;
+    font-weight: 900;
+    margin-right: 1.8rem;
 `
 
 export const Form = styled.div`
@@ -24,9 +26,11 @@ export const Form = styled.div`
     }
 
     #submit-btn{
-        background:${props => props.theme.colors.secondary};
-        color:${props => props.theme.colors.primary};
+        background:${props => props.theme.colors.primary};
+        color:#fff;
         cursor: pointer;
+        font-size: ${props => props.theme.font.size.medium};
+        font-weight: bold;
     }
 
     textarea{
