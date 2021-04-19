@@ -23,6 +23,13 @@ export const Icon = styled.div`
         width: 8rem;
         min-height: 8rem;
     }
+
+    @media (max-width: 768px) {
+        img{
+            width: 5rem;
+        } 
+    }
+
 `
 
 export const Title = styled.h3` 

@@ -12,6 +12,15 @@ export const Wrapper = styled.div`
         top: 130px;
         left: 110px;
     }
+
+    @media(max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
+        height:  100%;
+        margin: 0px;
+    }
 `
 
 export const Text = styled.div`

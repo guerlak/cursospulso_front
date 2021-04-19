@@ -6,25 +6,29 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 70px;
+    height: 8rem;
     background-color: ${p => p.theme.colors.primary};
     color: #fff;
-    padding: 2em 2em;
-
+    padding: 2em;
 
     img{
-        width: 150px;
+        width: 10rem;
     }
 
     ul{
+        width: 20rem;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         list-style: none;
-        width: 600px;
         li{
             margin: 20px;
-            
+        };
+
+        @media (max-width: 768px) {
+            &{
+                display: none;
+            } 
         }
     }
 `

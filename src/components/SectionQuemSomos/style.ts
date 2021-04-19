@@ -16,6 +16,12 @@ export const IconsWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     width: 100%;
+    @media (max-width: 768px) {
+            &{
+                flex-direction: column;
+                align-items: center;
+            } 
+        }
 `
 export const IconsWrapperDestina = styled.div`
    width: 100%;
@@ -51,6 +57,15 @@ export const Diferenciais = styled.div`
             font-size: ${theme.font.size.smallMedium}
         }
     `}
+
+    @media(max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
+        height:  100%;
+        margin: 0px;
+    }
 `
 
 export const CursosOferecidos = styled.div`
@@ -86,4 +101,9 @@ export const CursosOferecidos = styled.div`
         }
 
     `}
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
 `

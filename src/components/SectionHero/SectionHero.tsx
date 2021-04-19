@@ -9,7 +9,7 @@ type Props = {
 
 export default function SectionHero({ sectionHero }: Props) {
 
-    console.log(sectionHero);
+    console.log("sectionHero");
 
     return (
         <S.Wrapper>

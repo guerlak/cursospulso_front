@@ -22,23 +22,21 @@ const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
     <>
       <Head>
         <title>Home | Cursos Pulso</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
       </Head>
-      <div>
-        <Header goTo={quemSomosHandler} />
-        {!!SectionHero && <SectionHeroComponent sectionHero={SectionHero} />}
-        <main>
-          {!!SectionOne && <SectionOneComponent sectionOne={SectionOne} />}
-          <SectionQuemSomos tagRef={quemSomos} />
-          <SectionConteudoProg />
-          <SectionForm />
-        </main>
-        <Footer />
-      </div >
+
+      <Header goTo={quemSomosHandler} />
+      {!!SectionHero && <SectionHeroComponent sectionHero={SectionHero} />}
+      <main>
+        {!!SectionOne && <SectionOneComponent sectionOne={SectionOne} />}
+        <SectionQuemSomos tagRef={quemSomos} />
+        {/* <SectionConteudoProg />
+        <SectionForm /> */}
+      </main>
+      {/* <Footer /> */}
     </>
   )
 }
-
-
 
 export const getStaticProps: GetStaticProps = async () => {
 
@@ -48,7 +46,7 @@ export const getStaticProps: GetStaticProps = async () => {
     data = homePage;
 
   } catch (e) {
-    console.log("error on request")
+    console.log("Error on request...")
   }
   return {
     props: {

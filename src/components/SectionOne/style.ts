@@ -11,6 +11,12 @@ export const Container = styled.div`
         flex-direction: column;
         align-items: center;
     }
+    @media (max-width: 768px) {
+            img{
+                display: none;
+            }
+          
+        }
 `
 export const Texto = styled.div`
     ${({ theme }) => css`

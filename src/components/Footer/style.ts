@@ -6,8 +6,10 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    height: 300px;
+    height: 20rem;
+    width: 100%;
     line-height: 1.5rem;
+
     p{
         color: #fff;
         font-size: ${props => props.theme.font.size.smallMedium};
@@ -16,7 +18,6 @@ export const Container = styled.div`
         color: #fff;
     }
     
-
     div + div{
         border-left: 1px solid rgba(255,255,255, 0.4);
         padding-left: 3rem;

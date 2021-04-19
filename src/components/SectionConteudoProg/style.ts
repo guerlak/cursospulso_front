@@ -43,7 +43,16 @@ export const RectangleBox = styled.div`
     align-items: center;
     padding: 1rem 2.5rem;
     background: #F7F7F7;
-    margin: 10px
+
+
+    @media(max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
+        height:  100%;
+        margin: 0px;
+    }
 `
 
 export const Investimento = styled.div`
