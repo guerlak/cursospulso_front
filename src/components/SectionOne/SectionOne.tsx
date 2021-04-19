@@ -16,9 +16,8 @@ export default function SectionOne({ sectionOne }: Props) {
     return (
         <S.Container>
             <div>
-
                 <S.Texto>{sectionOne.Texto}</S.Texto>
-                <Button size="medium">Matricule-se já</Button>
+                <Button size="medium">Fale com a gente</Button>
             </div>
             <S.Image src={`${process.env.NEXT_PUBLIC_IMAGE_HOST}${sectionOne.Imagem.url}`} />
         </S.Container>

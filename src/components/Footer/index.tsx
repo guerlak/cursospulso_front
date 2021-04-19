@@ -11,7 +11,6 @@ export default function Footer() {
 
             <img src='/images/logo_vertical_branco.png' />
 
-
             <S.Links>
                 <a href="">
                     Home
@@ -49,7 +48,7 @@ export default function Footer() {
 
             <div>
                 <p>
-                    Av. das Américas, 4200. Bloco 09, sala 107 A
+                    Av. das Américas, 4200. Bloco 09, sala 107A<br />
                     Centro Empresarial Barrashopping
                 </p>
 
@@ -59,7 +58,6 @@ export default function Footer() {
                 <p>
                     Cep: 22640-102
                 </p>
-
             </div>
 
         </S.Container >

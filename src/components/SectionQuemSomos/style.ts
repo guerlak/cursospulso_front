@@ -13,30 +13,42 @@ export const Container = styled.div`
     }
 `
 export const IconsWrapper = styled.div`
-    > div{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-`
-
-export const Diferenciais = styled.div`
-    ${({ theme }) => css`
-
     display: flex;
     justify-content: space-around;
+    width: 100%;
+`
+export const IconsWrapperDestina = styled.div`
+   width: 100%;
+    img{
+        width: 7rem;
+    }
+    > div{
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-around;
+        p{
+            margin-top: -1.5rem;
+        }
+    }
+       
+`
+export const Diferenciais = styled.div`
+    ${({ theme }) => css`
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
         > div{
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 1em;
-            padding: 5px;
-            width: 250px;
-            height: 100px;
+            padding: 1rem;
+            width: 15rem;
+            height: 8rem;
             background-color: ${theme.colors.primary};
             color: #fff;
             border-radius: 5px;
-            font-size: ${theme.font.size.small}
+            font-size: ${theme.font.size.smallMedium}
         }
     `}
 `
@@ -55,7 +67,7 @@ export const CursosOferecidos = styled.div`
         > div{
             text-align: left;
             width: 100%;
-            max-width: 500px;
+            max-width: 600px;
             font-size: ${theme.font.size.medium};
             box-shadow: 0px 4px 8px rgb(171 171 171 / 50%);
             padding: 3rem;

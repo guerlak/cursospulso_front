@@ -18,6 +18,7 @@ export default function SectionForm() {
         <S.Wrapper>
             {isSubmitted ? <h1>Obrigado :)</h1> :
                 <>
+                    <img src="../images/form_traces.png" />
                     <S.Text>O que você está esperando para dar o seu primeiro passo para uma carreira de sucesso?</S.Text>
                     <S.Form>
                         <form onSubmit={submitForm}>

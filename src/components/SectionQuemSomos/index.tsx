@@ -14,28 +14,25 @@ export default function SectionQuemSomos({ tagRef }) {
 
             <h1>Quem Somos</h1>
             <p>
-                Somos uma empresa com foco na qualidade de ensino.
+                Uma empresa com foco na qualidade de ensino.
                 Utilizamos da tecnologia para capacitar e formar nossos alunos para o mercado de trabalho, dos mais experientes que buscam atualizar seus conhecimentos, aos iniciantes que têm o desafio de conseguir o primeiro emprego.
                 Nossa linguagem é simples, nossas aulas são didáticas e nossos cursos são acessíveis a todos.
             </p>
+            <br></br>
 
             <S.IconsWrapper>
-                <div>
-                    <InfoIcon description={descriptions.missao} icon="/icons/mission-pulso-icon.svg" />
-                    <InfoIcon description={descriptions.valor} icon="/icons/valor-pulso-icon.svg" />
-                    <InfoIcon description={descriptions.visao} icon="/icons/vision-pulso-icon.svg" />
-                </div>
+                <InfoIcon title="Missão" description={descriptions.missao} icon="/icons/mission-pulso-icon.svg" />
+                <InfoIcon title="Visão" description={descriptions.visao} icon="/icons/vision-icon.svg" />
+                <InfoIcon title="Valor" description={descriptions.valor} icon="/icons/valor-pulso-icon.svg" />
             </S.IconsWrapper>
 
             <h1>Nossos Mentores</h1>
 
             <S.IconsWrapper>
-                <div>
-                    <MentoresIcon role="Administradora" name="Mariana Gabriel Pereira" description={descriptions.mentores.mariana} image="/images/Mariana-Gabriel-pb.png" />
-                    <MentoresIcon role="Advogado" name="Pedro Aquino" description={descriptions.mentores.pedro} image="/images/Pedro-Aquino.png" />
-                    <MentoresIcon role="Psicóloga" name="Juliana Gabriel Pereira" description={descriptions.mentores.ju} image="/images/ju-gabriel-pb.png" />
-                    <MentoresIcon role="Enfermeira" name="Juliana Gabriel Pereira" description={descriptions.mentores.erica} image="/images/Erica-pb.png" />
-                </div>
+                <MentoresIcon role="Administradora" name="Mariana Gabriel Pereira" description={descriptions.mentores.mariana} image="/images/Mariana-Gabriel-pb.png" />
+                <MentoresIcon role="Advogado" name="Pedro Aquino" description={descriptions.mentores.pedro} image="/images/Pedro-Aquino.png" />
+                <MentoresIcon role="Psicóloga" name="Juliana Gabriel Pereira" description={descriptions.mentores.ju} image="/images/ju-gabriel-pb.png" />
+                <MentoresIcon role="Enfermeira" name="Erika Melo" description={descriptions.mentores.erica} image="/images/Erica-pb.png" />
             </S.IconsWrapper>
 
             <h1>Cursos Oferecidos</h1>
@@ -61,9 +58,6 @@ export default function SectionQuemSomos({ tagRef }) {
                 <div>Apoio na confecção do currículo após o término do curso.</div>
                 <div>Oportunidade de estágio ao longo do curso, dependendo do desempenho do aluno.</div>
                 <div>Cadastro do currículo no nosso banco de dados para possível colocação no mercado.</div>
-            </S.Diferenciais>
-
-            <S.Diferenciais>
                 <div>Suporte durante o curso para dúvidas e mais 3 meses de bônus.</div>
                 <div>Curso humanizado, com foco no diálogo e ministrado pelos profissionais mais influentes do mercado.</div>
                 <div>Planilha de evolução do paciente.</div>
@@ -71,17 +65,19 @@ export default function SectionQuemSomos({ tagRef }) {
 
             <h1>Para quem se destina</h1>
 
-            <S.IconsWrapper>
+            <S.IconsWrapperDestina>
                 <div>
                     <InfoIcon description={descriptions.ideia} icon="/icons/ideia-pulso-icon.svg" />
                     <InfoIcon description={descriptions.job} icon="/icons/job-pulso-icon.svg" />
-                    <InfoIcon description={descriptions.salary} icon="/icons/salary-pulso-icon.svg" />
+                    <InfoIcon description={descriptions.firstJob} icon="/icons/first-job-pulso-icon.svg" />
+
                 </div>
                 <div>
-                    <InfoIcon description={descriptions.firstJob} icon="/icons/first-job-pulso-icon.svg" />
+                    <InfoIcon description={descriptions.salary} icon="/icons/salary-pulso-icon.svg" />
+
                     <InfoIcon description={descriptions.eldery} icon="/icons/eldery-pulso-icon.svg" />
                 </div>
-            </S.IconsWrapper>
+            </S.IconsWrapperDestina>
         </S.Container>
     )
 }

@@ -6,6 +6,12 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     min-height: 500px;
+    position: relative;
+    img{
+        position: absolute;
+        top: 130px;
+        left: 110px;
+    }
 `
 
 export const Text = styled.div`

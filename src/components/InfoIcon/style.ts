@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
        display: flex;
        flex-direction: column;
        align-items: center;
-       max-width: 14rem;
+       max-width: 20rem;
     `}
 `
 export const Icon = styled.div` 
@@ -18,17 +18,24 @@ export const Icon = styled.div`
         border-radius: 5px;
         padding: 0.8rem;
     `}
-`
-export const Title = styled.div` 
-   ${({ theme }) => css`
-       
 
+    img{
+        width: 8rem;
+        min-height: 8rem;
+    }
+`
+
+export const Title = styled.h3` 
+   ${({ theme }) => css`
+       color: ${theme.colors.text};
+       margin-bottom: 1.4rem;
+    
     `}
 `
 
-export const Description = styled.div` 
+export const Description = styled.p` 
    ${({ theme }) => css`
-        
+        font-size: ${theme.font.size.smallMedium}
 
     `}
 `

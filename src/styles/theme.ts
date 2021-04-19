@@ -13,8 +13,11 @@ const theme = {
         family: "HeroNew, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, 'Open Sans', 'sans-serif'",
         size: {
             small: "0.8rem",
+            smallMedium: "1.0rem",
             medium: "1.2rem",
-            large: "1.6rem"
+            mediumLarge: "1.4rem",
+            large: "1.6rem",
+            superLarge: "2.0rem"
         }
     }
 }

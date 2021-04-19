@@ -15,7 +15,7 @@ export const Container = styled.div`
 export const Texto = styled.div`
     ${({ theme }) => css`
         color: ${theme.colors.primary};
-        font-size: ${theme.font.size.medium};
+        font-size: ${theme.font.size.mediumLarge};
         line-height: 1.2;
         width: 24rem;
         margin-bottom: 50px;

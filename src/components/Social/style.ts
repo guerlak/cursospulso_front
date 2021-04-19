@@ -6,10 +6,8 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     width: 50px;
-
     a{
         margin: 10px;
         color: ${(props => props.theme.colors.primary)}
     }
-  
 `

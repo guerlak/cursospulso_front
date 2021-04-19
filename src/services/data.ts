@@ -4,12 +4,13 @@ export const descriptions = {
     mentores: {
         mariana: [
             "Pós-Graduada: Gestão Empresarial",
-            "21 anos de experiência em ADM e relacionamento.",
+            "21 anos de experiência em ADM.",
             "Professora",
         ],
         pedro: [
             "18 anos de experiência em Home Care",
-            "Pós-Graduado: Responsabilidade Civil e Mediação de Conflitos",
+            "Pós-Graduado: Responsabilidade Civil",
+            "Pós-Graduado: Mediação de Conflitos",
             "Professor"
         ],
         ju: [
@@ -19,7 +20,10 @@ export const descriptions = {
             "Mestrado: Mediação de Conflitos",
             "Professora"
         ],
-        erica: ["Description Erica"]
+        erica: ["Mestrado em Metrologia - PUC Rio",
+            "Experiencia em Cuidado com Idoso",
+            "Atuante em Âmbito Hospitalar",
+        ]
     },
     missao: "Formar profissionais qualificados e capazes de conquistar um lugar no mercado de trabalho.",
     valor: "Ética, compromisso, qualidade, transparência, respeito, acolhimento e colaboração.",

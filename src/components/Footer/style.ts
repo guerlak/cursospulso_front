@@ -8,19 +8,19 @@ export const Container = styled.div`
     color: #fff;
     height: 300px;
     line-height: 1.5rem;
+    p{
+        color: #fff;
+        font-size: ${props => props.theme.font.size.smallMedium};
+    }
     a{
         color: #fff;
     }
-    div{
-        max-width: 350px;
-        
-    }
+    
 
     div + div{
         border-left: 1px solid rgba(255,255,255, 0.4);
         padding-left: 3rem;
     }
-
 `
 export const Logo = styled.div` 
     display: flex;
@@ -28,7 +28,6 @@ export const Logo = styled.div`
     justify-content: space-between;
     height: 200px;
 `
-
 export const Links = styled.div` 
     display: flex;
     flex-direction: column;
@@ -44,5 +43,4 @@ export const Social = styled.div`
     a{
         margin: 0.5em;
     }
-
 `
