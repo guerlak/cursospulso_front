@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const Container = styled.div`
     display: flex;
     justify-content: space-around;
@@ -14,21 +13,25 @@ export const Container = styled.div`
     img{
         width: 10rem;
     }
-
-    ul{
-        width: 20rem;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        list-style: none;
-        li{
-            margin: 20px;
-        };
-
-        @media (max-width: 768px) {
-            &{
-                display: none;
-            } 
+    .icon{
+            display: none;
         }
+
+    @media (max-width: 768px) {
+        .icon{
+            display: block;
+        }
+    }
+`
+
+export const NavMenu = styled.div`
+    a{
+        color: #fff;
+        text-decoration: none;
+        margin: 1rem;
+    }
+   
+    @media (max-width: 768px) {
+        display: none;
     }
 `

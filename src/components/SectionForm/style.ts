@@ -14,12 +14,13 @@ export const Wrapper = styled.div`
     }
 
     @media(max-width: 800px) {
-        display: flex;
+        img{
+            display: none;
+        }
         flex-direction: column;
         text-align: center;
-        margin-bottom: 1rem;
         height:  100%;
-        margin: 0px;
+        margin-bottom: 2rem;
     }
 `
 
@@ -29,6 +30,10 @@ export const Text = styled.div`
     color: #FF6C08;
     font-weight: 900;
     margin-right: 1.8rem;
+    @media(max-width: 800px) {
+     
+        margin-bottom: 3rem;
+    }
 `
 
 export const Form = styled.div`

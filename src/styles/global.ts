@@ -54,6 +54,9 @@ export default createGlobalStyle`
     main{
         padding-left: 10%;
         padding-right: 10%;
+        @media(max-width: 800px) {
+            padding: 0;
+        }
     }
 
     p{

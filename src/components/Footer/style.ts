@@ -14,6 +14,7 @@ export const Container = styled.div`
         color: #fff;
         font-size: ${props => props.theme.font.size.smallMedium};
     }
+    
     a{
         color: #fff;
     }
@@ -21,6 +22,17 @@ export const Container = styled.div`
     div + div{
         border-left: 1px solid rgba(255,255,255, 0.4);
         padding-left: 3rem;
+    }
+
+    @media(max-width: 800px) {
+        flex-direction: column;
+        padding: 2rem;
+        height: 35rem;
+        text-align:  center;
+        div + div{
+            border-left: 0;
+            padding-left: 0;
+        }
     }
 `
 export const Logo = styled.div` 
@@ -37,10 +49,23 @@ export const Links = styled.div`
     a{
         text-decoration: none;
     }
+    @media(max-width: 800px) {
+        &{
+            display: none;
+        }
+    }
+`
+export const SocialContainer = styled.div` 
+    @media(max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `
 export const Social = styled.div` 
     display: flex;
     align-items: center;
+
     a{
         margin: 0.5em;
     }

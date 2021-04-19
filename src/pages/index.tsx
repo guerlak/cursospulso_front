@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { useRef } from 'react'
 import Footer from '../components/Footer'
-import Header from "../components/Header/Header"
+import Header from "../components/Header"
 import SectionConteudoProg from '../components/SectionConteudoProg/SectionConteudoProg'
 import SectionForm from '../components/SectionForm/Form'
 import SectionHeroComponent from '../components/SectionHero/SectionHero'
@@ -30,10 +30,10 @@ const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
       <main>
         {!!SectionOne && <SectionOneComponent sectionOne={SectionOne} />}
         <SectionQuemSomos tagRef={quemSomos} />
-        {/* <SectionConteudoProg />
-        <SectionForm /> */}
+        <SectionConteudoProg />
+        <SectionForm />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

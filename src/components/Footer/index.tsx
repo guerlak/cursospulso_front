@@ -27,24 +27,23 @@ export default function Footer() {
 
             </S.Links>
 
-
-            <div>
+            <S.SocialContainer>
                 <p>+55 (21) 98904-0189</p>
                 <p><i>contato@cursospulso.com.br</i></p>
                 <S.Social>
                     <a href="https://www.instagram.com/cursospulso/" target="_blank">
-                        <FaWhatsapp size={30} />
+                        <FaWhatsapp />
                     </a>
 
                     <a href="https://www.instagram.com/cursospulso/" target="_blank">
-                        <FaInstagram size={30} />
+                        <FaInstagram />
                     </a>
 
                     <a href="https://www.instagram.com/cursospulso/" target="_blank">
-                        <FaFacebook size={30} />
+                        <FaFacebook />
                     </a>
                 </S.Social>
-            </div>
+            </S.SocialContainer>
 
             <div>
                 <p>
