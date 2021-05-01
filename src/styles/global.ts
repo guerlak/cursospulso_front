@@ -40,9 +40,9 @@ export default createGlobalStyle`
     }
 
     body {
+        font-family: ${props => props.theme.font.family};
         background: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.primary};
-        font-family: ${props => props.theme.font.family};
         font-size: ${props => props.theme.font.size.medium};
     }
 
