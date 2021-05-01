@@ -1,8 +1,6 @@
 import { useRouter } from "next/router"
 import { useRef } from "react"
-import { slide as Menu } from "react-burger-menu"
 import { FaBars } from "react-icons/fa"
-
 
 import Social from '../Social/Social'
 import * as S from "./style"
