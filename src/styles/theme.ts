@@ -10,7 +10,7 @@ const theme = {
         text: '#656668',
     },
     font: {
-        family: "HeroNew, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, 'Open Sans', 'sans-serif'",
+        family: "'HeroNew', 'Roboto', - apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, 'Open Sans', 'sans-serif'",
         size: {
             small: "0.8rem",
             smallMedium: "1.0rem",
