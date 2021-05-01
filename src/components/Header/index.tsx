@@ -21,7 +21,7 @@ export default function Header({ goTo }: HeaderProps) {
                 <a href="#home" className="active" onClick={goTo}>Quem somos</a>
                 <a href="#news">Cursos</a>
                 <a href="#contact">Contato</a>
-                <a href="#about">About</a>
+                <a href="#cadastro">Cadastro CV</a>
             </S.NavMenu>
 
             {/* <span className="icon" onClick={() => console.log("teste")}>
