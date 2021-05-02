@@ -16,7 +16,10 @@ import { HomePageProps } from '../types/api'
 const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
 
   const quemSomos = useRef(null);
+  const footer = useRef(null);
+
   const quemSomosHandler = () => quemSomos.current.scrollIntoView();
+  const footerHandler = () => footer.current.scrollIntoView();
 
   return (
     <>
@@ -25,35 +28,36 @@ const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
       </Head>
 
-      <Header goTo={quemSomosHandler} />
-      {!!SectionHero && <SectionHeroComponent sectionHero={SectionHero} />}
+      <Header goTo={{ quemSomosHandler, footerHandler }} />
+      {/* {!!SectionHero && <SectionHeroComponent sectionHero={SectionHero} />} */}
+      <SectionHeroComponent sectionHero={SectionHero} />
       <main>
         {!!SectionOne && <SectionOneComponent sectionOne={SectionOne} />}
         <SectionQuemSomos tagRef={quemSomos} />
         <SectionConteudoProg />
         <SectionForm />
       </main>
-      <Footer />
+      <Footer tagRef={footer} />
     </>
   )
 }
 
-export const getStaticProps: GetStaticProps = async () => {
+// export const getStaticProps: GetStaticProps = async () => {
 
-  let data = {}
-  try {
-    const { homePage } = await client.request(GET_HOMEPAGE);
-    data = homePage;
+//   let data = {}
+//   try {
+//     const { homePage } = await client.request(GET_HOMEPAGE);
+//     data = homePage;
 
-  } catch (e) {
-    console.log("Error on request...")
-  }
-  return {
-    props: {
-      ...data
-    }
-  }
-}
+//   } catch (e) {
+//     console.log("Error on request...")
+//   }
+//   return {
+//     props: {
+//       ...data
+//     }
+//   }
+// }
 
 export default Index;
 

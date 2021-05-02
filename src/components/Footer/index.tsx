@@ -5,9 +5,9 @@ import Social from '../Social/Social'
 
 import * as S from "./style"
 
-export default function Footer() {
+export default function Footer({ tagRef }) {
     return (
-        <S.Container>
+        <S.Container ref={tagRef}>
 
             <img src='/images/logo_vertical_branco.png' />
 

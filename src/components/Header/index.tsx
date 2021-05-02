@@ -5,7 +5,10 @@ import Social from '../Social/Social'
 import * as S from "./style"
 
 interface HeaderProps {
-    goTo?: () => void;
+    goTo: {
+        quemSomosHandler?: () => void;
+        footerHandler?: () => void;
+    }
 }
 
 export default function Header({ goTo }: HeaderProps) {
@@ -13,14 +16,14 @@ export default function Header({ goTo }: HeaderProps) {
 
     return (
         <S.Container>
-            <span style={{ cursor: "pointer" }}
-                onClick={() => router.push('/')}><img src="/images/CursosPulso_Logo_Colorida.png" />
+            <span style={{ cursor: "pointer" }} onClick={() => router.push('/')}>
+                <img src="/images/CursosPulso_Logo_Colorida.png" />
             </span>
 
             <S.NavMenu>
-                <a href="#home" className="active" onClick={goTo}>Quem somos</a>
-                <a href="#news">Cursos</a>
-                <a href="#contact">Contato</a>
+                <a href="#home" onClick={goTo.quemSomosHandler}>Quem somos</a>
+                <a href="#cursos">Cursos</a>
+                <a href="#contato" onClick={goTo.footerHandler}>Contato</a>
                 <a href="#cadastro">Cadastro CV</a>
             </S.NavMenu>
 

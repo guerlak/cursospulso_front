@@ -16,6 +16,7 @@ export const IconsWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     width: 100%;
+
     @media (max-width: 768px) {
             &{
                 flex-direction: column;

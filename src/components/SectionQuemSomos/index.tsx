@@ -15,13 +15,16 @@ export default function SectionQuemSomos({ tagRef }) {
             <h1>Quem Somos</h1>
             <p>
                 Uma empresa com foco na qualidade de ensino.
-                Utilizamos da tecnologia para capacitar e formar nossos alunos para o mercado de trabalho, dos mais experientes que buscam atualizar seus conhecimentos, aos iniciantes que têm o desafio de conseguir o primeiro emprego.
-                Nossa linguagem é simples, nossas aulas são didáticas e nossos cursos são acessíveis a todos.
+                Utilizamos da tecnologia para capacitar e formar nossos alunos para o mercado de trabalho,
+                dos mais experientes que buscam atualizar seus conhecimentos, aos iniciantes que têm o
+                desafio de conseguir o primeiro emprego.
+                Nossa linguagem é simples, nossas aulas são didáticas e nossos cursos
+                são acessíveis.
             </p>
             <br></br>
 
             <S.IconsWrapper>
-                <InfoIcon title="Missão" description={descriptions.missao} icon="/icons/mission-pulso-icon.svg" />
+                <InfoIcon size="10px" title="Missão" description={descriptions.missao} icon="/icons/mission-pulso-icon.svg" />
                 <InfoIcon title="Visão" description={descriptions.visao} icon="/icons/vision-icon.svg" />
                 <InfoIcon title="Valor" description={descriptions.valor} icon="/icons/valor-pulso-icon.svg" />
             </S.IconsWrapper>
@@ -47,7 +50,7 @@ export default function SectionQuemSomos({ tagRef }) {
                         um dos segmentos profissionais que mais crescem no Brasil.
                         Aulas teóricas e práticas com enfermeiros especializados e os melhores profissionais do mercado de trabalho.
                     </p>
-                    <Button>Matricule-se já e sai na frente</Button>
+                    <Button>Matricule-se já e saia na frente</Button>
                 </div>
             </S.CursosOferecidos>
 
@@ -70,11 +73,9 @@ export default function SectionQuemSomos({ tagRef }) {
                     <InfoIcon description={descriptions.ideia} icon="/icons/ideia-pulso-icon.svg" />
                     <InfoIcon description={descriptions.job} icon="/icons/job-pulso-icon.svg" />
                     <InfoIcon description={descriptions.firstJob} icon="/icons/first-job-pulso-icon.svg" />
-
                 </div>
                 <div>
                     <InfoIcon description={descriptions.salary} icon="/icons/salary-pulso-icon.svg" />
-
                     <InfoIcon description={descriptions.eldery} icon="/icons/eldery-pulso-icon.svg" />
                 </div>
             </S.IconsWrapperDestina>

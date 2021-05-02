@@ -1,5 +1,8 @@
 import styled, { css, DefaultTheme } from "styled-components"
 
+interface IconProps {
+    size?: string;
+}
 
 export const Wrapper = styled.div` 
    ${({ theme }) => css`
@@ -9,20 +12,20 @@ export const Wrapper = styled.div`
        max-width: 20rem;
     `}
 `
-export const Icon = styled.div` 
-   ${({ theme }) => css`
-        width: 8rem;
-        min-height: 8rem;
+export const Icon = styled.div<IconProps>` 
+   ${({ theme, size }) => css`
+        min-height: 6rem;
         color: ${theme.colors.primary};
         border: 0;
         border-radius: 5px;
         padding: 0.8rem;
+        img{
+            width: ${size};
+            min-height: 6rem;
+        }
     `}
 
-    img{
-        width: 8rem;
-        min-height: 8rem;
-    }
+    
 
     @media (max-width: 768px) {
         img{

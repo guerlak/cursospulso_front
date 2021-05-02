@@ -5,13 +5,14 @@ type Props = {
     icon: string;
     title?: string;
     description: string;
+    size?: string;
 }
 
 
-export default function InfoIcon({ icon, description, title }: Props) {
+export default function InfoIcon({ icon, description, title, size }: Props) {
     return (
         <S.Wrapper>
-            <S.Icon><img src={icon} /></S.Icon>
+            <S.Icon size="6rem"><img src={icon} /></S.Icon>
             <S.Title>{title}</S.Title>
             <S.Description>{description}</S.Description>
         </S.Wrapper>
