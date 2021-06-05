@@ -5,7 +5,7 @@ import Social from '../Social/Social'
 import * as S from "./style"
 
 interface HeaderProps {
-    goTo: {
+    goTo?: {
         quemSomosHandler?: () => void;
         footerHandler?: () => void;
     }
