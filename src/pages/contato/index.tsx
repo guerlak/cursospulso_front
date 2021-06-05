@@ -4,7 +4,7 @@ const Contato = () => {
 
     return (
         <h1>
-            Formulário
+            Contato
         </h1>
 
     )

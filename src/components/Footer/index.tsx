@@ -24,7 +24,6 @@ export default function Footer({ tagRef }) {
                 <a href="">
                     Contato
                 </a>
-
             </S.Links>
 
             <S.SocialContainer>

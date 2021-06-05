@@ -7,10 +7,10 @@ export const Container = styled.div`
     min-height: 300px;
     color: ${props => props.theme.colors.primary};
     text-align: center;
-
-    >div{
-        margin-top: 50px;
+    h1{
+        margin: 2rem 0;
     }
+
 `
 export const IconsWrapper = styled.div`
     display: flex;
@@ -24,26 +24,26 @@ export const IconsWrapper = styled.div`
             } 
         }
 `
-export const IconsWrapperDestina = styled.div`
-   width: 100%;
-    img{
-        width: 7rem;
+export const MentoresScrollX = styled.div`
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    @media (max-width: 768px) {
+        justify-content: start;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
     }
-    > div{
-        display: flex;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-around;
-        p{
-            margin-top: -1.5rem;
-        }
-    }
-       
 `
+
 export const Diferenciais = styled.div`
     ${({ theme }) => css`
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr;
+
         > div{
             display: flex;
             justify-content: center;
@@ -72,10 +72,9 @@ export const Diferenciais = styled.div`
 export const CursosOferecidos = styled.div`
     ${({ theme }) => css`
 
-    &{
-        max-width: 800px;
-    }
-
+        &{
+            max-width: 800px;
+        }
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;

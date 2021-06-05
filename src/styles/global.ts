@@ -37,6 +37,8 @@ export default createGlobalStyle`
     
     html{
         scroll-behavior: smooth;
+        margin:0;
+        padding:0;
     }
 
     body {
@@ -48,18 +50,18 @@ export default createGlobalStyle`
         main{
             padding-left: 10%;
             padding-right: 10%;
-            /* > div{
-                margin-top: 50px;
-            } */
 
             @media(max-width: 800px) {
-                padding: 0;
+                padding: 1.2rem;
             }
         }
 
         h1 {
             color: ${props => props.theme.colors.primary};
-            margin: 2rem;
+
+            @media(max-width: 800px) {
+                margin-bottom: 1.5rem;
+            }
         }
 
         p{

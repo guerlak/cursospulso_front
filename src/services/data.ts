@@ -1,5 +1,3 @@
-
-
 export const descriptions = {
     mentores: {
         mariana: [
@@ -21,7 +19,7 @@ export const descriptions = {
             "Professora"
         ],
         erica: ["Mestrado em Metrologia - PUC Rio",
-            "Experiencia em Cuidado com Idoso",
+            "Experiência em Cuidado com Idoso",
             "Atuante em Âmbito Hospitalar",
         ]
     },

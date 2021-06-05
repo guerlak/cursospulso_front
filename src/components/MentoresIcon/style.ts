@@ -6,12 +6,9 @@ export const Wrapper = styled.div`
        display: flex;
        flex-direction: column;
        align-items: center;
-       max-width: 17rem;
-       
-    `}
 
     img{
-        height: 10rem;
+        height: 13rem;
     }
 
     h2{
@@ -19,6 +16,13 @@ export const Wrapper = styled.div`
         color: #656668;
         margin: 5px;
     }
+
+    > div{
+            margin: 0 1.7rem;
+        }
+       
+    `}
+
 `
 
 export const Name = styled.div` 
@@ -36,6 +40,6 @@ export const Text = styled.p`
    ${({ theme }) => css`
         color: ${theme.colors.text};
         font-size: ${theme.font.size.small};
-        padding: 0.3rem;
+        padding: 0.2rem;
     `}
 `

@@ -6,10 +6,13 @@ export const Wrapper = styled.div`
     width: 100%;
  
     h2{
-        font-size: 3.5rem;
+        font-size: 3rem;
         color: #fff;
         text-align: left;
         text-shadow: 3px 2px #333;
+        @media(max-width: 800px) {
+            font-size: 1.2rem;
+        }
        
     } 
     
@@ -19,6 +22,10 @@ export const Wrapper = styled.div`
         color: #fff;
         text-align: left;
         margin-top: 20px;
+        @media(max-width: 800px) {
+            font-size: 0.7rem;
+            margin-top: 0.5rem;
+        }
        
     }
 `
@@ -26,12 +33,25 @@ export const Wrapper = styled.div`
 export const CarouselTextContainer = styled.div`
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    width: 400px;
-    height: 250px;
+    width: 25rem;
+    height: 18rem;
     position: absolute;
     top: 100px;
-    /* right: 180px; */
     right: 10%;
+    .descriptionMobile{
+        display: none;
+    }
+
+    @media(max-width: 800px) {
+        top: 1rem;
+        right: 01rem;
+        width: 10rem;
+        height: 18rem;
+        .descriptionMobile{
+            display: block;
+        }
+       
+    }
+
     
 `

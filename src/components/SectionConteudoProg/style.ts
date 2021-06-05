@@ -1,21 +1,26 @@
 import styled, { css } from 'styled-components'
 
-export const Wrapper = styled.div`
+export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     min-height: 300px;
-    padding: 20px;
-    >div{
-        margin: 2rem;
-    }
     color: ${props => props.theme.colors.primary};
+    margin-top: 2rem;
 
+    h1{
+        text-align: center;
+    }
+  
+    >div{
+        margin: 1.5rem 0;
+    }
+    
     .subTitle{
-        margin: -25px 0 20px 0;
         font-size: ${props => props.theme.font.size.medium};
-        
+
+
     }
 `
 
@@ -24,9 +29,12 @@ export const Rectangle = styled.div`
     box-shadow: 0px 4px 8px rgba(171, 171, 171, 0.5);
     color: ${props => props.theme.colors.primary};
     padding: 10px;
-    width: 300px;
+    width: 25rem;
     margin: 5px;
     text-align: center;
+    @media(max-width: 800px) {
+        width: 20rem;
+    }
 `
 
 export const RectangleBox = styled.div`
@@ -45,7 +53,6 @@ export const RectangleBox = styled.div`
     background: #F7F7F7;
     margin-bottom: 10px;
 
-
     @media(max-width: 800px) {
         display: flex;
         flex-direction: column;
@@ -53,12 +60,14 @@ export const RectangleBox = styled.div`
         margin-bottom: 1rem;
         height:  100%;
         margin: 0px;
+        &{
+            margin-bottom: 1rem;
+        }
     }
 `
 
 export const Investimento = styled.div`
-
-${({ theme }) => css`
+    ${({ theme }) => css`
         display: flex;
         flex-direction: column;
         align-items:  center;
@@ -66,6 +75,5 @@ ${({ theme }) => css`
         p{
             color: ${theme.colors.primary};
         }
-        
     `}
 `

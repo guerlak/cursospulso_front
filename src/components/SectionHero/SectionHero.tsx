@@ -21,13 +21,15 @@ const carousel = [
     {
         url: "/images/carousel-img-3.png",
         title: "Você sabia?",
-        description: "Após o término do curso, nossos alunos recebem um diploma e auxílio para elaboração de um novo currículo mais competitivo."
+        description: "Após o término do curso, nossos alunos recebem um diploma e auxílio para elaboração de um novo CV mais competitivo.",
+        descriptionMobile: "Nossos alunos recebem um diploma e auxílio para elaboração de um novo CV mais competitivo."
     },
     {
         url: "/images/carousel-img-4.png",
         title: "Te ajudamos!",
-        description: "Os 10 primeiros inscritos ganham 10% de desconto. O seu primeiro passo rumo a uma carreira de sucesso. Inscreva-se já!"
-    },
+        description: "Os 10 primeiros inscritos ganham 10% de desconto. O seu primeiro passo rumo a uma carreira de sucesso. Inscreva-se já!",
+        descriptionMobile: "Os 10 primeiros inscritos ganham 10% de desconto. Inscreva-se já!"
+    }
 
 ]
 
@@ -49,6 +51,7 @@ export default function SectionHero({ sectionHero }: Props) {
                         <S.CarouselTextContainer>
                             <h2>{c.title}</h2>
                             <h3>{c.description}</h3>
+                            <h3 className="descriptionMobile">{c.descriptionMobile}</h3>
                         </S.CarouselTextContainer>
                     </div>
                 ))}

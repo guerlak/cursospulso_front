@@ -3,7 +3,7 @@ import * as S from "./style"
 
 export default function SectionConteudoProg() {
     return (
-        <S.Wrapper>
+        <S.Container>
             <h1>Conteúdo Programático</h1>
             <span className="subTitle">Curso Cuidador de Idosos</span>
 
@@ -19,6 +19,7 @@ export default function SectionConteudoProg() {
                 <S.Rectangle>Noções de Cuidados Palativos</S.Rectangle>
                 <S.Rectangle>Primeiros Socorros</S.Rectangle>
             </div>
+
             <Button>Conteúdo Detalhado<br></br><strong>Saiba Mais</strong></Button>
 
             <S.Investimento>
@@ -45,6 +46,7 @@ export default function SectionConteudoProg() {
                 </S.RectangleBox>
             </div>
 
-        </S.Wrapper >
+
+        </S.Container >
     )
 }
