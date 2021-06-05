@@ -19,8 +19,7 @@ export default function SectionConteudoProg() {
                 <S.Rectangle>Noções de Cuidados Palativos</S.Rectangle>
                 <S.Rectangle>Primeiros Socorros</S.Rectangle>
             </div>
-            <Button>Conteúdo Detalhado<br></br><strong>Saiba Mais</strong></Button >
-
+            <Button>Conteúdo Detalhado<br></br><strong>Saiba Mais</strong></Button>
 
             <S.Investimento>
                 <p>Investimento:</p>

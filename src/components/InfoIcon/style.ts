@@ -1,4 +1,5 @@
 import styled, { css, DefaultTheme } from "styled-components"
+import { darken } from "polished"
 
 interface IconProps {
     size?: string;
@@ -22,6 +23,9 @@ export const Icon = styled.div<IconProps>`
         img{
             width: ${size};
             min-height: 6rem;
+        }
+        img:hover{
+            
         }
     `}
 

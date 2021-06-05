@@ -9,13 +9,14 @@ export const Container = styled.div`
     background-color: ${p => p.theme.colors.primary};
     color: #fff;
     padding: 2em;
+    border-bottom: 5px solid #fff;
 
     img{
         width: 10rem;
     }
     .icon{
-            display: none;
-        }
+        display: none;
+    }
 
     @media (max-width: 768px) {
         .icon{

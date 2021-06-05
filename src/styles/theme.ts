@@ -8,6 +8,7 @@ const theme = {
         primary: '#0025FF',
         secondary: '#06FFAC',
         text: '#656668',
+        orange: "#ff6600"
     },
     font: {
         family: "'HeroNew', 'Roboto', 'Open Sans', 'sans-serif'",

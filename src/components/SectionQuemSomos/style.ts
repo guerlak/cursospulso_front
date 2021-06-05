@@ -7,9 +7,9 @@ export const Container = styled.div`
     min-height: 300px;
     color: ${props => props.theme.colors.primary};
     text-align: center;
-    h1{
-        margin-bottom: 2rem;
-        margin-top: 2rem;
+
+    >div{
+        margin-top: 50px;
     }
 `
 export const IconsWrapper = styled.div`
@@ -72,6 +72,10 @@ export const Diferenciais = styled.div`
 export const CursosOferecidos = styled.div`
     ${({ theme }) => css`
 
+    &{
+        max-width: 800px;
+    }
+
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
@@ -93,7 +97,7 @@ export const CursosOferecidos = styled.div`
             }
 
             p{
-                font-size: ${theme.font.size.medium};
+                font-size: ${theme.font.size.smallMedium};
             }
 
             button{

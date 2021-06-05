@@ -43,6 +43,7 @@ export const RectangleBox = styled.div`
     align-items: center;
     padding: 1rem 2.5rem;
     background: #F7F7F7;
+    margin-bottom: 10px;
 
 
     @media(max-width: 800px) {

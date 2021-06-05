@@ -9,24 +9,24 @@ type Props = {
 
 const carousel = [
     {
-        url: "/images/carousel-img-1.png",
-        title: "Matrículas Abertas",
-        description: "Forme o grupo e nos consulte para descontos especiais"
+        url: "/images/carousel-img-5.png",
+        title: "Matrículas Abertas!",
+        description: "Forme um grupo e nos consulte para descontos especiais."
     },
     {
         url: "/images/carousel-img-2.png",
-        title: "Matrículas Abertas",
-        description: "Forme o grupo e nos consulte para descontos especiais"
+        title: "#amigodopulso",
+        description: "Traga um amigo e ganhe 10% de desconto para os dois + isenção da taxa de matrícula."
     },
     {
         url: "/images/carousel-img-3.png",
-        title: "Matrículas Abertas",
-        description: "Forme o grupo e nos consulte para descontos especiais"
+        title: "Você sabia?",
+        description: "Após o término do curso, nossos alunos recebem um diploma e auxílio para elaboração de um novo currículo mais competitivo."
     },
     {
         url: "/images/carousel-img-4.png",
-        title: "Matrículas Abertas",
-        description: "Forme o grupo e nos consulte para descontos especiais"
+        title: "Te ajudamos!",
+        description: "Os 10 primeiros inscritos ganham 10% de desconto. O seu primeiro passo rumo a uma carreira de sucesso. Inscreva-se já!"
     },
 
 ]
@@ -43,11 +43,13 @@ export default function SectionHero({ sectionHero }: Props) {
                     <h3>{sectionHero[0].descricao}</h3>
                 </div> */}
 
-                {carousel.map(img => (
+                {carousel.map(c => (
                     <div>
-                        <img src={img.url} width="100%" />
-                        <h2>{img.title}</h2>
-                        <h3>{img.description}</h3>
+                        <img src={c.url} width="100%" />
+                        <S.CarouselTextContainer>
+                            <h2>{c.title}</h2>
+                            <h3>{c.description}</h3>
+                        </S.CarouselTextContainer>
                     </div>
                 ))}
 

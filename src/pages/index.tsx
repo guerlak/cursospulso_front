@@ -35,7 +35,7 @@ const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
         {!!SectionOne && <SectionOneComponent sectionOne={SectionOne} />}
         <SectionQuemSomos tagRef={quemSomos} />
         <SectionConteudoProg />
-        <SectionForm />
+        {/* <SectionForm /> */}
       </main>
       <Footer tagRef={footer} />
     </>

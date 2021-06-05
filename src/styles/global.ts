@@ -44,23 +44,29 @@ export default createGlobalStyle`
         background: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.primary};
         font-size: ${props => props.theme.font.size.medium};
-    }
 
-    h1 {
-        color: ${props => props.theme.colors.primary};
-        margin: 2rem;
-    }
+        main{
+            padding-left: 10%;
+            padding-right: 10%;
+            /* > div{
+                margin-top: 50px;
+            } */
 
-    main{
-        padding-left: 10%;
-        padding-right: 10%;
-        @media(max-width: 800px) {
-            padding: 0;
+            @media(max-width: 800px) {
+                padding: 0;
+            }
+        }
+
+        h1 {
+            color: ${props => props.theme.colors.primary};
+            margin: 2rem;
+        }
+
+        p{
+            color: ${props => props.theme.colors.text};
+            font-size: ${props => props.theme.font.size.medium};
         }
     }
 
-    p{
-        color: ${props => props.theme.colors.text};
-        font-size: ${props => props.theme.font.size.medium};
-    }
+
  `
