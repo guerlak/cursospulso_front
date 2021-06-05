@@ -11,12 +11,14 @@ const carousel = [
     {
         url: "/images/carousel-img-5.png",
         title: "Matrículas Abertas!",
-        description: "Forme um grupo e nos consulte para descontos especiais."
+        description: "Forme um grupo e nos consulte para descontos especiais.",
+        descriptionMobile: "Forme um grupo e nos consulte para descontos especiais."
     },
     {
         url: "/images/carousel-img-2.png",
         title: "#amigodopulso",
-        description: "Traga um amigo e ganhe 10% de desconto para os dois + isenção da taxa de matrícula."
+        description: "Traga um amigo e ganhe 10% de desconto para os dois + isenção da taxa de matrícula.",
+        descriptionMobile: "Traga um amigo e ganhe 10% de desconto para os dois + isenção da taxa de matrícula."
     },
     {
         url: "/images/carousel-img-3.png",
@@ -50,7 +52,7 @@ export default function SectionHero({ sectionHero }: Props) {
                         <img src={c.url} width="100%" />
                         <S.CarouselTextContainer>
                             <h2>{c.title}</h2>
-                            <h3>{c.description}</h3>
+                            <h3 className="description">{c.description}</h3>
                             <h3 className="descriptionMobile">{c.descriptionMobile}</h3>
                         </S.CarouselTextContainer>
                     </div>

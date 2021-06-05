@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
         font-size: 3rem;
         color: #fff;
         text-align: left;
-        text-shadow: 3px 2px #333;
+        text-shadow: 2px 2px #333;
         @media(max-width: 800px) {
             font-size: 1.2rem;
         }
@@ -40,8 +40,8 @@ export const CarouselTextContainer = styled.div`
     right: 10%;
     .descriptionMobile{
         display: none;
-    }
-
+    }   
+    
     @media(max-width: 800px) {
         top: 1rem;
         right: 01rem;
@@ -49,6 +49,9 @@ export const CarouselTextContainer = styled.div`
         height: 18rem;
         .descriptionMobile{
             display: block;
+        }
+        .description{
+            display: none;
         }
        
     }

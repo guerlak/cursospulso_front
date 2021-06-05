@@ -33,7 +33,7 @@ export default function SectionQuemSomos({ tagRef }) {
             <S.MentoresScrollX>
                 <MentoresIcon role="Administradora" name="Mariana Gabriel Pereira" description={descriptions.mentores.mariana} image="/images/Mariana-Gabriel-pb.png" />
                 <MentoresIcon role="Advogado" name="Pedro Aquino" description={descriptions.mentores.pedro} image="/images/Pedro-Aquino.png" />
-                <MentoresIcon role="Psicóloga" name="Juliana Gabriel Pereira" description={descriptions.mentores.ju} image="/images/ju-gabriel-pb.png" />
+                <MentoresIcon role="Psicóloga" name="Juliana Gabriel Pereira" description={descriptions.mentores.ju} image="/images/juliana.png" />
                 <MentoresIcon role="Enfermeira" name="Erika Melo" description={descriptions.mentores.erica} image="/images/Erica-pb.png" />
             </S.MentoresScrollX>
 
