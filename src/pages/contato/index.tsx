@@ -3,9 +3,10 @@ import Header from "../../components/Header"
 const Contato = () => {
 
     return (
-        <>
-            <Header />
-        </>
+        <h1>
+            Formulário
+        </h1>
+
     )
 }
 
