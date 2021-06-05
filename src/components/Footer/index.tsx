@@ -30,7 +30,7 @@ export default function Footer({ tagRef }) {
                 <p>+55 (21) 98904-0189</p>
                 <p><i>contato@cursospulso.com.br</i></p>
                 <S.Social>
-                    <a href="https://www.instagram.com/cursospulso/" target="_blank">
+                    <a href="https://wa.me/5521989040189" target="_blank">
                         <FaWhatsapp />
                     </a>
 
@@ -38,7 +38,7 @@ export default function Footer({ tagRef }) {
                         <FaInstagram />
                     </a>
 
-                    <a href="https://www.instagram.com/cursospulso/" target="_blank">
+                    <a href="https://www.facebook.com/cursospulso" target="_blank">
                         <FaFacebook />
                     </a>
                 </S.Social>
