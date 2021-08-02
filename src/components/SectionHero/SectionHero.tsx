@@ -2,6 +2,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import * as S from "./style"
 import { SectionHeroProps } from "../../types/api"
+import Button from "../Button";
 
 type Props = {
     sectionHero: SectionHeroProps[];
@@ -54,9 +55,14 @@ export default function SectionHero({ sectionHero }: Props) {
                             <h2>{c.title}</h2>
                             <h3 className="description">{c.description}</h3>
                             <h3 className="descriptionMobile">{c.descriptionMobile}</h3>
+                            <br />
+                            <a href="https://api.whatsapp.com/send?phone=5521967870083&text=Olá%20CursosPulso, gostaria de mais informações" target="_blank">
+                                <Button>Inscreva-se</Button>
+                            </a>
                         </S.CarouselTextContainer>
                     </div>
-                ))}
+                ))
+                }
 
             </Carousel>
         </S.Wrapper>
