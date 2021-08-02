@@ -5,8 +5,11 @@ const Contato = () => {
     return (
         <>
             <h1>
-                Contato
+                Cursos
             </h1>
+            <h2>
+                Descrição
+            </h2>
         </>
 
     )

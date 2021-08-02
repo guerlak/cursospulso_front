@@ -13,11 +13,10 @@ import client from '../graphql/client'
 import GET_HOMEPAGE from '../graphql/queries/getHomePage'
 import { HomePageProps } from '../types/api'
 
-const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
+const Index = ({ SectionOne, SectionHero }: HomePageProps, props: any) => {
 
   const quemSomos = useRef(null);
   const footer = useRef(null);
-
   const quemSomosHandler = () => quemSomos.current.scrollIntoView();
   const footerHandler = () => footer.current.scrollIntoView();
 
@@ -28,8 +27,8 @@ const Index = ({ SectionOne, SectionHero }: HomePageProps) => {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
       </Head>
 
-      <Header goTo={{ quemSomosHandler, footerHandler }} />
       {/* {!!SectionHero && <SectionHeroComponent sectionHero={SectionHero} />} */}
+
       <SectionHeroComponent sectionHero={SectionHero} />
       <main>
         {!!SectionOne && <SectionOneComponent sectionOne={SectionOne} />}

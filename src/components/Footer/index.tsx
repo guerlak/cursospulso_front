@@ -1,6 +1,4 @@
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import styles from '../../styles/Footer.module.css'
-import Social from '../Social/Social'
 
 
 import * as S from "./style"
@@ -27,10 +25,10 @@ export default function Footer({ tagRef }) {
             </S.Links>
 
             <S.SocialContainer>
-                <p>+55 (21) 98904-0189</p>
+                <p>+55 (21) 96787-0083</p>
                 <p><i>contato@cursospulso.com.br</i></p>
                 <S.Social>
-                    <a href="https://wa.me/5521989040189" target="_blank">
+                    <a href="https://wa.me/5521967870083" target="_blank">
                         <FaWhatsapp />
                     </a>
 

@@ -12,7 +12,7 @@ interface HeaderProps {
 }
 
 export default function Header({ goTo }: HeaderProps) {
-    const router = useRouter()
+    const router = useRouter();
 
     return (
         <S.Container>
@@ -21,10 +21,10 @@ export default function Header({ goTo }: HeaderProps) {
             </span>
 
             <S.NavMenu>
-                <a href="#home" onClick={goTo.quemSomosHandler}>Quem somos</a>
-                <a href="#cursos">Cursos</a>
-                <a href="#contato" onClick={goTo.footerHandler}>Contato</a>
-                <a href="#cadastro">Cadastro CV</a>
+                {/* <a href="#home" onClick={() => router.push('/')}>Quem somos</a> */}
+                <a href="#cursos" onClick={() => router.push('/cursos')}>Cursos</a>
+                {/*<a href="#cadastro">Cadastro CV</a>*/}
+                <a href="#contato">Contato</a>
             </S.NavMenu>
 
             {/* <span className="icon" onClick={() => console.log("teste")}>

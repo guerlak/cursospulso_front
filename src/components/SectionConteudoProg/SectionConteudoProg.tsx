@@ -20,11 +20,11 @@ export default function SectionConteudoProg() {
                 <S.Rectangle>Primeiros Socorros</S.Rectangle>
             </div>
 
-            <Button>Conteúdo Detalhado<br></br><strong>Saiba Mais</strong></Button>
+            <Button>Increva-se Já!</Button>
 
             <S.Investimento>
                 <p>Investimento:</p>
-                <h1>R$ --,-- </h1>
+                <h1>R$ 350,00 </h1>
             </S.Investimento>
 
             <div>
