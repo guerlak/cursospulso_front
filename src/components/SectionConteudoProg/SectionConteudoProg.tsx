@@ -20,7 +20,9 @@ export default function SectionConteudoProg() {
                 <S.Rectangle>Primeiros Socorros</S.Rectangle>
             </div>
 
-            <Button>Increva-se Já!</Button>
+            <Button><a href="https://wa.me/5521967870083" target="_blank">
+                Increva-se Já!
+            </a></Button>
 
             <S.Investimento>
                 <p>Investimento:</p>
@@ -30,7 +32,7 @@ export default function SectionConteudoProg() {
             <div>
                 <S.RectangleBox>
                     <div className="title">Forma de Pagamento</div>
-                    <div>10% de desconto para pagamentos a vista ou até 5x no cartão de crédito sem juros.</div>
+                    <div>Diversas formas de pagamento, para saber mais entre em contato</div>
                 </S.RectangleBox>
                 <S.RectangleBox>
                     <div className="title">Duração</div>

@@ -19,8 +19,11 @@ export const Container = styled.div`
     
     .subTitle{
         font-size: ${props => props.theme.font.size.medium};
+    }
 
-
+    a{
+        color: ${props => props.theme.colors.primary};
+        text-decoration: none;
     }
 `
 

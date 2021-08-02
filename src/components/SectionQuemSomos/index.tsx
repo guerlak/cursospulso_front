@@ -48,8 +48,10 @@ export default function SectionQuemSomos({ tagRef }) {
                         Curso especializado na formação e aperfeiçoamento de Cuidadores de Idosos,
                         um dos segmentos profissionais que mais crescem no Brasil.
                         Aulas teóricas e práticas com enfermeiros especializados e os melhores profissionais do mercado de trabalho.
-                        </p>
-                    <Button>Matricule-se já e saia na frente</Button>
+                    </p>
+                    <Button><a href="https://wa.me/5521967870083" target="_blank">
+                        Matricule-se já e saia na frente
+                    </a></Button>
                 </div>
             </S.CursosOferecidos>
 

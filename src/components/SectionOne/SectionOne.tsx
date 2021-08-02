@@ -11,7 +11,7 @@ export default function SectionOne({ sectionOne }: Props) {
 
     const test = useCallback(() => {
         console.log('teste');
-    }, [])
+    }, []);
 
     return (
         <S.Container>

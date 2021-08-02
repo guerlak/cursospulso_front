@@ -11,6 +11,11 @@ export const Container = styled.div`
         margin: 2rem 0;
     }
 
+    a{
+        color: ${props => props.theme.colors.primary};
+        text-decoration: none;
+    }
+
 `
 export const IconsWrapper = styled.div`
     display: flex;
