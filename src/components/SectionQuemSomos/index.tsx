@@ -49,9 +49,12 @@ export default function SectionQuemSomos({ tagRef }) {
                         um dos segmentos profissionais que mais crescem no Brasil.
                         Aulas teóricas e práticas com enfermeiros especializados e os melhores profissionais do mercado de trabalho.
                     </p>
-                    <Button><a href="https://wa.me/5521967870083" target="_blank">
-                        Matricule-se já e saia na frente
-                    </a></Button>
+                    <a href="https://wa.me/5521967870083" target="_blank">
+                        <Button>
+                            Matricule-se já e saia na frente
+                        </Button>
+                    </a>
+
                 </div>
             </S.CursosOferecidos>
 

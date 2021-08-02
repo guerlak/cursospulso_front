@@ -18,7 +18,7 @@ const carousel = [
         url: "/images/carousel-img-2.png",
         title: "#amigodopulso",
         description: "Traga um amigo e ganhe 10% de desconto para os dois + isenção da taxa de matrícula.",
-        descriptionMobile: "Traga um amigo e ganhe 10% de desconto para os dois + isenção da taxa de matrícula."
+        descriptionMobile: "Traga um amigo e ganhe 10% de desconto para os dois."
     },
     {
         url: "/images/carousel-img-3.png",
