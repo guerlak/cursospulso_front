@@ -31,7 +31,7 @@ export default function Header({ goTo }: HeaderProps) {
                 <FaBars />
             </span> */}
 
-            <Social size={25} color={'#fff'} />
+            <Social size={35} color={'#fff'} />
         </S.Container >
     )
 }

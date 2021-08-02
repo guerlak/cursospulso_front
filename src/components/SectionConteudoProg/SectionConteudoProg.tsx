@@ -8,16 +8,15 @@ export default function SectionConteudoProg() {
             <span className="subTitle">Curso Cuidador de Idosos</span>
 
             <div>
-                <S.Rectangle>Alimentação</S.Rectangle>
-                <S.Rectangle>Base Legal</S.Rectangle>
+                <S.Rectangle>Atividades complementares</S.Rectangle>
+                <S.Rectangle>Base Legal e Ética</S.Rectangle>
                 <S.Rectangle>Comunicação Não Violenta</S.Rectangle>
-                <S.Rectangle>Cuidado Geral com a Pessoa Idosa</S.Rectangle>
-                <S.Rectangle>Doenças Degenerativas</S.Rectangle>
-                <S.Rectangle>Ética</S.Rectangle>
-                <S.Rectangle>Gestão do Cliente</S.Rectangle>
-                <S.Rectangle>Gestão de conflitos</S.Rectangle>
-                <S.Rectangle>Noções de Cuidados Palativos</S.Rectangle>
+                <S.Rectangle>Cuidados Gerais com a Pessoa Idosa</S.Rectangle>
+                <S.Rectangle>Fisiologia</S.Rectangle>
+                <S.Rectangle>Módulo de Aula Prática</S.Rectangle>
                 <S.Rectangle>Primeiros Socorros</S.Rectangle>
+                <S.Rectangle>Saúde Mental</S.Rectangle>
+                <S.Rectangle>Relacionamento Interpessoal</S.Rectangle>
             </div>
 
             <Button><a href="https://wa.me/5521967870083" target="_blank">
@@ -32,11 +31,11 @@ export default function SectionConteudoProg() {
             <div>
                 <S.RectangleBox>
                     <div className="title">Forma de Pagamento</div>
-                    <div>Diversas formas de pagamento, para saber mais entre em contato</div>
+                    <div>Diversas formas de pagamento, para saber mais entre em contato.</div>
                 </S.RectangleBox>
                 <S.RectangleBox>
                     <div className="title">Duração</div>
-                    <div>160 horas divididas em dois módulos de 80 horas, sendo 80 horas de aula presencial e 80 horas de aula online.</div>
+                    <div>160 horas entre aulas práticas, atividades complementares e aulas online.</div>
                 </S.RectangleBox>
                 <S.RectangleBox>
                     <div className="title">Material Didático</div>
@@ -47,8 +46,6 @@ export default function SectionConteudoProg() {
                     <div>A partir dos 18 anos - Ensino Fundamental Completo.</div>
                 </S.RectangleBox>
             </div>
-
-
         </S.Container >
     )
 }

@@ -5,11 +5,11 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 8rem;
+    height: 6rem;
     background-color: ${p => p.theme.colors.primary};
     color: #fff;
     padding: 2em;
-    border-bottom: 5px solid #fff;
+    border-bottom: 3px solid #fff;
 
     img{
         width: 10rem;
