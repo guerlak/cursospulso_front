@@ -41,32 +41,24 @@ export default function SectionHero({ sectionHero }: Props) {
     return (
         <S.Wrapper>
             <Carousel showArrows={true} showThumbs={false} showStatus={false}>
-                {/* <div>
-                    <img src={`${process.env.NEXT_PUBLIC_IMAGE_HOST}${sectionHero[0].Image.url}`} width="100%" />
-                    <img src={`${process.env.NEXT_PUBLIC_IMAGE_HOST}${sectionHero[0].Image.url}`} width="100%" />
-                    <h2>{sectionHero[0].text}</h2>
-                    <h3>{sectionHero[0].descricao}</h3>
-                </div> */}
 
-                {carousel.map(c => (
-                    <div>
-                        <img src={c.url} width="100%" />
-                        <S.CarouselTextContainer>
-                            <h2>{c.title}</h2>
-                            <h3 className="description">{c.description}</h3>
-                            <h3 className="descriptionMobile">{c.descriptionMobile}</h3>
-                            <br />
-                            <a href="https://api.whatsapp.com/send?phone=5521967870083&text=Olá%20CursosPulso, gostaria de mais informações" target="_blank">
-                                <Button>Inscreva-se</Button>
-                            </a>
-                        </S.CarouselTextContainer>
-                    </div>
-                ))
+                {
+                    carousel.map(c => (
+                        <div>
+                            <img src={c.url} width="100%" />
+                            <S.CarouselTextContainer>
+                                <h2>{c.title}</h2>
+                                <h3 className="description">{c.description}</h3>
+                                <h3 className="descriptionMobile">{c.descriptionMobile}</h3>
+                                <br />
+                                <a href="https://api.whatsapp.com/send?phone=5521967870083&text=Olá%20CursosPulso, gostaria de mais informações" target="_blank">
+                                    <Button size="banner">Inscreva-se</Button>
+                                </a>
+                            </S.CarouselTextContainer>
+                        </div>
+                    ))
                 }
-
             </Carousel>
         </S.Wrapper>
-
-
     )
 }

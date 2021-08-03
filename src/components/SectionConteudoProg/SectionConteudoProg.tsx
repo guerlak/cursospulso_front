@@ -9,22 +9,19 @@ export default function SectionConteudoProg() {
 
             <div>
                 <S.Rectangle>Atividades Complementares</S.Rectangle>
+                <S.Rectangle>Aulas Práticas</S.Rectangle>
                 <S.Rectangle>Base Legal e Ética</S.Rectangle>
                 <S.Rectangle>Comunicação Não Violenta</S.Rectangle>
                 <S.Rectangle>Cuidados Gerais com a Pessoa Idosa</S.Rectangle>
                 <S.Rectangle>Fisiologia</S.Rectangle>
-                <S.Rectangle>Módulo de Aula Prática</S.Rectangle>
                 <S.Rectangle>Primeiros Socorros</S.Rectangle>
                 <S.Rectangle>Relacionamento Interpessoal</S.Rectangle>
                 <S.Rectangle>Saúde Mental</S.Rectangle>
-
             </div>
-
 
             <a href="https://wa.me/5521967870083" target="_blank">
                 <Button>Increva-se Já!</Button>
             </a>
-
 
             <S.Investimento>
                 <p>Investimento:</p>

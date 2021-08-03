@@ -16,6 +16,17 @@ const wrapperSelector = {
         min-height: 3rem;
         font-size: ${theme.font.size.large};
     `,
+    banner: (theme: DefaultTheme) => css`
+        min-height: 2rem;
+        font-size: ${theme.font.size.large};
+        @media(max-width: 800px) {
+        &{
+            font-size: ${theme.font.size.small};
+            padding: 0.3rem;
+        }
+    }
+                
+    `,
 }
 
 export const Wrapper = styled.button<WrapperProps>` 
@@ -28,5 +39,7 @@ export const Wrapper = styled.button<WrapperProps>`
         padding: 0.8rem;
         cursor: pointer;
         ${!!size && wrapperSelector[size](theme)}
+    }
+
     `}
 `

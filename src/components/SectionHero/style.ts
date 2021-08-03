@@ -13,7 +13,6 @@ export const Wrapper = styled.div`
         @media(max-width: 800px) {
             font-size: 1.2rem;
         }
-       
     } 
     
     h3{

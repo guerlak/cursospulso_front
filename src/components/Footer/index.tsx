@@ -10,7 +10,7 @@ export default function Footer({ tagRef }) {
             <img src='/images/logo_vertical_branco.png' />
 
             <S.Links>
-                <a href="">
+                <a href="/">
                     Home
                 </a>
                 <a href="">
@@ -31,18 +31,17 @@ export default function Footer({ tagRef }) {
                     <a href="https://wa.me/5521967870083" target="_blank">
                         <FaWhatsapp />
                     </a>
-
                     <a href="https://www.instagram.com/cursospulso/" target="_blank">
                         <FaInstagram />
                     </a>
-
                     <a href="https://www.facebook.com/cursospulso" target="_blank">
                         <FaFacebook />
                     </a>
                 </S.Social>
             </S.SocialContainer>
 
-            <div>
+            <div style={{ width: '15rem' }}>
+                {/*
                 <p>
                     Av. das Américas, 4200. Bloco 09, sala 107A<br />
                     Centro Empresarial Barrashopping
@@ -54,6 +53,7 @@ export default function Footer({ tagRef }) {
                 <p>
                     Cep: 22640-102
                 </p>
+                */}
             </div>
 
         </S.Container >

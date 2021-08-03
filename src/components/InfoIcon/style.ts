@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
        display: flex;
        flex-direction: column;
        align-items: center;
+       margin: 0.3rem;
     `}
 `
 export const Icon = styled.div<IconProps>` 
