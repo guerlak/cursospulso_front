@@ -41,6 +41,10 @@ export const CarouselTextContainer = styled.div`
     .descriptionMobile{
         display: none;
     }   
+
+    a{
+        margin-top: 1rem;
+    }
     
     @media(max-width: 800px) {
         top: 1rem;

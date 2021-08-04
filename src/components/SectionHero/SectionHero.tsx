@@ -50,7 +50,6 @@ export default function SectionHero({ sectionHero }: Props) {
                                 <h2>{c.title}</h2>
                                 <h3 className="description">{c.description}</h3>
                                 <h3 className="descriptionMobile">{c.descriptionMobile}</h3>
-                                <br />
                                 <a href="https://api.whatsapp.com/send?phone=5521967870083&text=Olá%20CursosPulso, gostaria de mais informações" target="_blank">
                                     <Button size="banner">Inscreva-se</Button>
                                 </a>

@@ -18,7 +18,7 @@ const wrapperSelector = {
     `,
     banner: (theme: DefaultTheme) => css`
         min-height: 2rem;
-        font-size: ${theme.font.size.large};
+        font-size: ${theme.font.size.medium};
         @media(max-width: 800px) {
         &{
             font-size: ${theme.font.size.small};

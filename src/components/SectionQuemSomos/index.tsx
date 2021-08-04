@@ -62,7 +62,6 @@ export default function SectionQuemSomos({ tagRef }) {
 
             <S.Diferenciais>
                 <div>Apoio na confecção do currículo após o término do curso.</div>
-                <div>Oportunidade de estágio ao longo do curso, dependendo do desempenho do aluno.</div>
                 <div>Cadastro do currículo no nosso banco de dados para possível colocação no mercado.</div>
                 <div>Suporte durante o curso para dúvidas e mais 3 meses de bônus.</div>
                 <div>Curso humanizado, com foco no diálogo e ministrado pelos profissionais mais influentes do mercado.</div>
