@@ -22,10 +22,9 @@ const wrapperSelector = {
         @media(max-width: 800px) {
         &{
             font-size: ${theme.font.size.small};
-            padding: 0.3rem;
+            padding: 0.2rem;
         }
-    }
-                
+    }      
     `,
 }
 

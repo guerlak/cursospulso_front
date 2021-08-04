@@ -57,7 +57,9 @@ export const CarouselTextContainer = styled.div`
         .description{
             display: none;
         }
-       
+        a{
+            margin-top: 0.5rem;
+        }
     }
 
     
