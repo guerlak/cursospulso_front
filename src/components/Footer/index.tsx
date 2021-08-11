@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 import * as S from "./style"
@@ -40,8 +41,12 @@ export default function Footer({ tagRef }) {
                 </S.Social>
             </S.SocialContainer>
 
-            <div style={{ width: '15rem' }}>
-                {/*
+            <MessengerCustomerChat
+                pageId="106823061200729"
+                appId="213976444007964"
+            />
+
+            {/*
                 <p>
                     Av. das Américas, 4200. Bloco 09, sala 107A<br />
                     Centro Empresarial Barrashopping
@@ -53,8 +58,7 @@ export default function Footer({ tagRef }) {
                 <p>
                     Cep: 22640-102
                 </p>
-                */}
-            </div>
+            */}
 
         </S.Container >
     )
