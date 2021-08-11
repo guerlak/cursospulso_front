@@ -44,6 +44,7 @@ export default function Footer({ tagRef }) {
             <MessengerCustomerChat
                 pageId="106823061200729"
                 appId="213976444007964"
+                language="pt_BR"
             />
 
             {/*
